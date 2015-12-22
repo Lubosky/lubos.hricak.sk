@@ -27,6 +27,12 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 ###
+# Compass
+###
+
+activate :compass
+
+###
 # Helpers
 ###
 
