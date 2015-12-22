@@ -2,6 +2,13 @@
 # Page options, layouts, aliases and proxies
 ###
 
+# Configure asset directories
+config[:css_dir] = 'assets/stylesheets'
+config[:js_dir] = 'assets/javascripts'
+config[:images_dir] = 'assets/images'
+config[:fonts_dir] = 'assets/fonts'
+config[:layouts_dir] = 'assets/layouts'
+
 # Per-page layout changes:
 #
 # With no layout
