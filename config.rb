@@ -2,6 +2,9 @@
 # Page options, layouts, aliases and proxies
 ###
 
+# Get bower to play nice with Middleman
+sprockets.append_path File.join root, 'bower_components'
+
 # Configure asset directories
 config[:css_dir] = 'assets/stylesheets'
 config[:js_dir] = 'assets/javascripts'
