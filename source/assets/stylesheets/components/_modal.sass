@@ -1,0 +1,62 @@
+.modal-wrapper
+  +transition(background 300ms ease-in-out)
+  +position(fixed, 0 0 null null)
+  display: none
+  height: 100%
+  width: 100%
+  z-index: 999
+  background: rgba(0, 0, 0, 0)
+
+  &.open-modal
+    background: rgba(0, 0, 0, .88)
+    .modal
+      +transform(translateY(0))
+      @media screen and (max-width: 767px)
+        +transform(translate(-50%, 0))
+
+  .modal
+    +transition(all 300ms ease-in-out)
+    +transform(translateY(-500px))
+    +position(fixed, 40% null null 50%)
+    max-width: 560px
+    width: 100%
+    padding: 40px
+    background: $white
+    border-radius: $border-radius
+    margin: -260px 0 0 -280px
+    text-align: center
+    @media screen and (max-width: 767px)
+      +position(fixed, 0 null null 50%)
+      +transform(translate(-50%, -500px))
+      border-radius: 0
+      margin: 0 auto
+
+    .modal-close
+      +position(absolute, 1em 1em null null)
+      +size(1.5em)
+      background: $white
+      cursor: pointer
+
+      &:after,
+      &:before
+        +position(absolute, 3px 3px 0 50%)
+        +transform(rotate(45deg))
+        +size(0.25em 1.25em)
+        background: $light-gray
+        content: ''
+        display: block
+        margin: -3px 0 0 -1px
+
+      &:hover:after,
+      &:hover:before
+        background: darken($gray, 10%)
+
+      &:before
+        +transform(rotate(-45deg))
+
+    .form-embed
+      @include span-columns(12)
+      @include shift(0)
+
+      h2
+        margin: 20px auto

@@ -1,0 +1,34 @@
+.post
+  padding: 70px 0 0
+  img.has-image
+    border: none
+    border-radius: 10px
+
+  h1
+    &.post-title
+      @extend .bold
+      color: $dark-gray
+      font-size: 34px
+      padding: 45px 0 0
+      margin: 0 0 15px
+
+  h2
+    &.subtitle
+      color: $primary-gray
+      font-family: $proxima
+      font-style: italic
+      font-weight: normal
+      font-size: 24px
+      margin: 0 0 45px
+      text-align: center
+
+  @media screen and (max-width: 767px)
+    padding: 50px 0 0
+
+    h1
+      &.post-title
+        font-size: 30px
+
+    h2
+      &.subtitle
+        font-size: $text-large

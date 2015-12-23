@@ -1,0 +1,159 @@
+body
+  margin: 0 auto
+  width: 100%
+  height: auto
+  position: relative
+  -webkit-font-smoothing: antialiased
+
+.page-container
+  position: relative
+  @media screen and (max-width: 767px)
+    +transition(transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0))
+    .nav-expanded &
+      +transform(translateX(-$mobile-nav-width))
+
+ul
+  padding: 0
+
+section
+  &.page-content
+    padding: 70px 0
+
+  article.card:not(.featured)
+    font-size: $text-normal
+
+ul
+  margin: 20px 0 20px 40px
+
+.row
+  @include outer-container($grid-width)
+  padding: 0 15px
+
+header
+  width: 100%
+  background-image: url()
+  border-bottom: solid 2px $bg
+  padding: 80px 0
+  position: relative
+  h1
+    font-size: 3rem
+    margin-bottom: 0
+  @media only screen and(max-width:350px)
+    h1
+      font-size: 28px
+      line-height: 36px
+      margin-top: 100px
+  @media only screen and(max-width:440px)
+    h1
+      font-size: 32px
+      line-height: 40px
+  @media only screen and(max-width:640px)
+    h1
+      font-size: 2.5rem
+      line-height: 2.75rem
+  @media only screen and(max-width:750px)
+    h1
+      font-size: 3rem
+  @media screen and (max-width: 767px)
+    padding-bottom: 30px
+  @media screen and (min-width: 768px)
+    margin-top: 70px
+
+.blog-post
+  margin: 0 auto
+  @include span-columns(8 of 12)
+  @include shift(2)
+  @include media($tablet)
+    @include span-columns(10)
+    @include shift(1)
+  @include media($mobile)
+    @include span-columns(12)
+    @include shift(0)
+
+  img
+    margin: 0 auto
+    display: block
+    border: 10px solid $subtle-bg
+    border-radius: $border-radius
+    max-width: 100%
+    width: auto
+    height: auto
+
+div.card
+  margin-bottom: 0
+
+.flex-grid
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-flow: row wrap
+  flex-flow: row wrap
+  padding: 0
+  > .card
+    -webkit-box-flex: 1 0 300px
+    -moz-box-flex: 1 0 300px
+    -webkit-flex: 1 0 300px
+    -ms-flex: 1 0 300px
+    flex: 1 0 300px
+    webkit-align-items: stretch
+    align-items: stretch
+    margin: 0 15px 50px
+    position: relative
+    border: solid 1px #eee
+    border-width: 0px 1px 2px 1px
+    border-radius: 5px
+
+a
+  color: $white
+  text-decoration: none
+
+svg
+  overflow: visible
+  display: inline-block
+  width: 100%
+  height: 100%
+  +backface-visibility(hidden)
+  +transition(fill 0.2s ease)
+
+table
+  font-size: $text-default
+  margin-bottom: 40px
+  thead
+    tr
+      border: none
+    th
+      font-size: $small
+      text-transform: uppercase
+      text-align: left
+      padding: 10px 0
+  tr
+    border-bottom: solid 1px darken($subtle-bg, 10%)
+  td
+    padding: 10px 10px 10px 0
+
+.block
+  @include span-columns(6)
+  @include media($tablet)
+    @include span-columns(12)
+
+  h2
+    margin-top: 0
+    margin-bottom: 20px
+    font-size: 32px
+    line-height: 1.4
+  p
+    margin-bottom: 30px
+
+  h2, p
+    @include media($tablet)
+      text-align: center
+
+  img
+    width: 100%
+    border: 0
+    padding: 20px
+
+.divider
+  border-bottom: solid 1px $bg

@@ -1,0 +1,73 @@
+.card
+  display: inline-block
+  margin-bottom: 50px
+  @include media($mobile)
+    margin-bottom: 40px
+
+  img
+    width: 100%
+    display: block
+
+  a
+    display: block
+
+  h3
+    +transition(color 200ms ease-in-out)
+    margin: 0
+    font-size: $text-medium
+    line-height: 24px
+    display: -webkit-box
+    overflow: hidden
+    -webkit-line-clamp: 3
+    -webkit-box-orient: vertical
+
+  p
+    margin: 16px 0 0
+    text-align: left
+    font-size: $text-default
+    line-height: 1.6
+    overflow: hidden
+    -webkit-line-clamp: 6
+    -webkit-box-orient: vertical
+    display: -webkit-box
+    @include media($tablet)
+      float: none
+
+    strong
+      @extend .sbold
+      @include transition(color, 500ms ease-in-out)
+      color: $gray
+
+      span
+        color: $white
+
+  .copy
+    padding: 26px 30px
+
+  .date
+    @extend .sbold
+    margin: 0 0 8px
+    color: #b2bac2
+    font-size: $text-default
+    @include media($mobile)
+      margin: 20px 0 0
+
+  .card-image
+    overflow: hidden
+    height: 150px
+    max-height: 150px
+    background-color: rgba(#000,.25)
+    border-radius: 5px 5px 0 0
+
+    img
+      width: 100%
+      opacity: 1
+      z-index: -1
+      position: relative
+
+  &:hover,
+    h3
+      color: $primary-blue
+    .card-image
+      background-color: rgba(#fff,.05)
+      +transition(background-color 200ms ease-in-out, background-position 200ms ease-in-out)

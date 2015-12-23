@@ -1,0 +1,54 @@
+.btn
+  border-radius: $border-radius
+  background: transparent
+  border: 2px solid $primary-blue
+  color: $primary-blue
+  cursor: pointer
+  padding: 10px 26px
+  font-family: $proxima_semibold
+  font-weight: normal
+  font-style: normal
+  font-size: $text-normal
+  display: inline-block
+  margin: 0
+  text-align: center
+  +transition(color 200ms ease, background-color 200ms ease, border-color 200ms ease, width 200ms ease, opacity 200ms ease)
+  &:hover,
+  &:active
+    color: darken($primary-blue, 10%)
+    border-color: darken($primary-blue, 10%)
+
+  &.alt
+    border: 2px solid $white
+    color: $white
+
+  &.green
+    border: 2px solid $green
+    color: $green
+    &:hover,
+    &:active
+      background-color: darken($green, 7%)
+
+  &.red
+    border: 2px solid $red
+    color: $red
+    &:hover,
+    &:active
+      background-color: darken($red, 7%)
+
+  &.small
+    font-size: $text-small
+    padding: 8px 22px
+
+  &.large
+    font-size: $text-normal
+
+  &.default
+    color: $white
+    background: $primary-blue
+    &:hover,
+    &:focus
+      background-color: darken($primary-blue, 7%)
+
+  &.full
+    width: 100%

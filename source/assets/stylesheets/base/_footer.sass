@@ -1,0 +1,73 @@
+footer
+  border-top: solid 2px $bg
+  text-align: center
+  padding-top: 80px
+  float: left
+  width: 100%
+  &.home
+    display: none
+
+  .logo
+    fill: darken($light-gray, 5%)
+    margin: auto
+    height: 45px
+
+  p
+    font-size: $text-small
+    padding-top: 15px
+    a
+      color: $text-color
+      &:hover
+        color: $dark-gray
+      &:after
+        content: "•"
+        padding: 0 10px
+      &:last-child:after
+        display: none
+
+  .social
+    margin: 0 auto 80px
+    padding: 0
+    list-style-type: none
+    li
+      display: inline-block
+      a
+        float: left
+        @include size(24px)
+        background: darken($light-gray, 5%) center no-repeat
+        background-size: 16px 16px
+        border-radius: 50%
+        &.github
+          background-position-y: bottom
+          background-size: 20px
+        @include transition(background-color .3s $ease-out-quad)
+        margin: 2px
+
+      .twitter
+        background-image: url()
+        &:hover
+          background-color: $twitter
+      .youtube
+        background-image: url()
+        &:hover
+          background-color: $youtube
+      .facebook
+        background-image: url()
+        &:hover
+          background-color: $facebook
+      .google-plus
+        background-image: url()
+        &:hover
+          background-color: $google-plus
+      .linkedin
+        background-image: url()
+        &:hover
+          background-color: $linkedin
+      .instagram
+        background-image: url()
+        &:hover
+          background-color: $instagram
+      .github
+        background-image: url()
+        &:hover
+          background-color: $github

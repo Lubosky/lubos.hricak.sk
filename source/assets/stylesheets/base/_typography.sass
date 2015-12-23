@@ -1,0 +1,221 @@
+body
+  font-family: $proxima
+  color: $text-color
+
+// TYPOGRAPHY SPECIFIC VARIABLES
+$standard-spacing: 30px
+
+// HEADINGS
+h1, h2, h3, h4, h5, h6
+  color: $dark
+  display: block
+  font-family: $proxima_semibold
+  font-weight: normal
+  font-style: normal
+  line-height: 1.4
+
+h1
+  text-align: center
+  font-size: 40px
+  margin-top: 0
+  @include media($tablet)
+    font-size: 34px
+  @include media($mobile)
+    font-size: 26px
+h2
+  font-size: 36px
+  @include media($tablet)
+    font-size: 24px
+h3
+  font-size: 20px
+  @include media($tablet)
+    font-size: $text-medium
+  a
+    color: $dark
+
+    &:hover
+      color: inherit
+h4
+  font-size: $text-medium
+  @include media($tablet)
+    font-size: $text-normal
+h5
+  font-size: $text-normal
+h6
+  font-size: $text-default
+
+p
+  line-height: 1.4em
+
+// SECONDARY HEADINGS
+.secondary-heading
+  position: relative
+  padding-bottom: 15px
+  +clearfix
+
+  h1, h2, h3
+    font-size: $text-medium
+    +media(max-width $tablet-max)
+      font-size: $text-normal
+    color: $text-color
+    line-height: 1.3
+    span
+      font-size: 12.5px
+      color: lighten($dark, 53%)
+  h1
+    color: $dark
+  h3
+    font-size: $text-normal
+  p
+    font-size: $text-normal
+    margin: 5px 0 0 0
+    line-height: 1.6
+    color: $text-color
+    a
+      color: $blue
+      +transition(color .3s ease)
+      &:hover
+        color: darken($blue, 10%)
+    strong
+      color: $text-color
+      margin: 0
+      display: inline
+      font-size: 1em
+
+
+// GENERAL TEXT STYLES
+p
+  font-size: $text-default
+  line-height: 1.5em
+  margin-bottom: 15px
+
+.lead
+  font-size: $text-normal
+  line-height: 1.5
+  margin-bottom: $standard-spacing
+
+a
+  cursor: pointer
+
+.text-centered,
+.centered-content
+  text-align: center
+
+// LISTS
+ul,
+ol
+  font-size: 1rem
+  line-height: 1.8em
+  &.no-bullets
+    list-style-type: none
+    ul
+      list-style-type: none
+
+// TEXT ALIGN UTILITIES
+@each $direction in left right center
+  .align-#{$direction}
+    text-align: $direction
+
+.text-centered
+  text-align: center
+
+// PARAGRAPH STYLES
+p
+  color: $text-color
+  font-size: $base-font-size
+  line-height: 1.6
+  margin-top: 10px
+  margin-bottom: 20px
+  &.lead
+    font-size: $base-font-size + 2
+
+// SMALL PARAGRAPH CHUNKS
+.secondary-info
+  h6
+    font-size: $text-default
+    margin-bottom: 0
+  p
+    font-size: $text-small
+
+// ITALIC ELEMENTS
+em
+  font-style: italic
+  line-height: inherit
+
+// BOLD ELEMENTS
+.bold,
+.sbold,
+strong
+  font-weight: normal
+  font-style: normal
+  line-height: inherit
+
+.sbold,
+strong
+  font-family: $proxima_semibold
+
+.bold
+  font-family: $proxima_bold
+
+// GENERIC <small>
+small
+  font-size: 65%
+  line-height: inherit
+
+// LINK STYLES
+a
+  color: $blue
+  text-decoration: none
+  &:hover,
+  &:active
+    color: darken($blue, 5%)
+    text-decoration: none
+  img
+    border: none
+
+// ABBREVIATIONS & ACRONYMS
+abbr,
+acronym
+  border-bottom: 1px dotted $text-color
+  color: inherit
+  cursor: help
+  font-size: 90%
+acronym
+  text-transform: uppercase
+
+// HORIZONTAL RULE
+hr
+  border: solid $hr-color
+  border-width: 1px 0 0
+  clear: both
+  height: 0
+  margin: 65px 0
+
+// BLOCKQUOTE
+blockquote
+  background: transparent url('') center center no-repeat
+  background-size: 150px 100x
+  border: none
+  padding: 40px 10%
+  margin: 20px 0
+  color: $primary-blue
+  font-style: italic
+  font-size: $text-large
+  line-height: 1.6
+  text-align: center
+  p
+    color: $primary-blue
+    font-style: italic
+    font-size: $text-large
+    line-height: 1.6
+    text-align: center
+  cite
+    display: block
+    font-size: $text-medium
+    color: $text-color
+    margin-top: 5px
+    &:before
+      content: "\2014 \0020"
+    a,
+    a:visited
+      color: $text-color

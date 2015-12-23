@@ -1,0 +1,28 @@
+.pagination
+  @extend .sbold
+  text-align: center
+  font-size: $text-small
+  margin: 0 auto 80px
+
+  a, .current
+    border: 2px solid $light-gray
+    margin: 0 2px
+    color: $text-color
+    border-radius: 5px
+    padding: 8px 12px
+    display: inline-block
+    background: $white
+    @include transition(border-color, 200ms ease-in-out, color, 200ms ease-in-out)
+    @include media($mobile)
+      padding: 6px
+
+    &:hover
+      border: 2px solid $gray
+      color: $dark-gray
+
+  .current
+    border-color: tint($light-gray, 70%)
+
+    &:hover
+      border-color: tint($light-gray, 70%)
+      color: $text-color

@@ -1,0 +1,287 @@
+nav
+  +transition(border-color 200ms ease-in-out, transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0))
+  position: fixed
+  top: 0
+  background-color: #fff
+  border-bottom: solid 2px $bg
+  width: 100%
+  z-index: 99
+  &.home
+    background-color: transparent
+    border-bottom: none
+    width: calc(100% - 400px)
+    @media screen and (min-width: 500px)
+      height: 90px
+    .brand
+      width: 100%
+      top: 15px
+      .icon-logo
+        height: 55px
+        width: 100%
+        margin: auto
+
+    .nav
+      &-list
+        display: none
+
+    @media only screen and (max-width: 900px)
+      width: 100%
+
+    @media only screen and (max-width: 768px)
+      width: 100%
+      #mobile-nav-toggle
+        display: none
+
+    @media screen and (max-width: 500px)
+      width: 100%
+      .brand
+        width: auto
+        top: 6px
+        .icon-logo
+          height: 40px
+          width: 40px
+
+      #mobile-nav-toggle
+        display: block
+
+      .nav
+        &-list
+          display: block
+
+  @media screen and (max-width: 767px)
+    height: 52px
+    .nav-expanded &
+      +transform(translateX(-$mobile-nav-width))
+
+  @media screen and (min-width: 768px)
+    height: 70px
+
+  > section
+    max-width: 1030px
+    width: 100%
+    margin: 0 auto
+    padding: 0 10px
+    height: 100%
+
+.brand
+  float: left
+  z-index: 100
+  @media screen and (max-width: 767px)
+    top: 5px
+    position: relative
+  @media screen and (min-width: 768px)
+    top: 12px
+    position: relative
+  &:hover, &:active
+    .icon-logo
+      fill: darken($primary-blue, 10%)
+
+  .icon-logo
+    height: 45px
+    width: 45px
+    fill: $primary-blue
+    opacity: 1
+    +transition(transform 200ms ease-in-out, fill 200ms ease-in-out, opacity 200ms ease-in-out)
+    @media screen and (max-width: 767px)
+      height: 40px
+      width: 40px
+
+.nav
+  &-list
+    list-style: none
+    margin-top: 0
+    margin-bottom: 0
+    margin-left: 0
+    padding-left: 0
+    position: relative
+    z-index: 100
+
+    @media screen and (max-width: 767px)
+      position: absolute
+      top: 0
+      right: -$mobile-nav-width
+      box-shadow: 50px 0 0 $dark
+      background-color: $dark
+      width: $mobile-nav-width
+      height: 100vh
+      padding-top: 52px
+      z-index: 0
+
+    @media screen and (min-width: 768px)
+      float: right
+      margin-top: 21px
+
+    .scrolled &
+      .search
+        opacity: 0
+
+  &-item
+    @media screen and (max-width: 767px)
+      &:first-child
+        border-top: solid 1px darken($dark, 3%)
+        a
+          margin-top: 5px
+
+    @media screen and (min-width: 768px)
+      float: left
+      font-size: $text-default
+      margin-left: 40px
+
+  &-anchor
+    +transition(color 200ms ease-in-out)
+    @media screen and (max-width: 767px)
+      color: #788188
+      display: block
+      font-family: $proxima_semibold
+      font-weight: normal
+      font-style: normal
+      font-size: $text-medium
+      padding: 10px 0 10px 8px
+      margin-left: 7px
+      margin-top: -3px
+      &:hover, &:active
+        color: #fff
+
+    @media screen and (min-width: 768px)
+      color: $text-color
+      opacity: .8
+      padding: 8px 10px
+      &:hover, &:active
+        border-radius: 5px
+        color: darken($text-color, 15%)
+        background: rgba(#000,.05)
+        opacity: 1
+        box-shadow: inset 0 1px 1px rgba(#000,.05)
+
+  &-item-btn-sticky
+    @media screen and (max-width: 767px)
+      position: absolute
+      top: 10px
+      right: 10px
+
+    @media screen and (min-width: 768px)
+      margin-left: 10px
+      +transition(margin-left 200ms ease-in-out)
+      .scrolled &
+        margin-left: 35px
+
+    a
+      @media screen and (max-width: 767px)
+        +transition(background-color 200ms ease-in-out)
+        border-radius: 5px
+        background-color: $primary-blue
+        color: #fff
+        display: inline-block
+        padding: 6px 18px 7px
+        &:hover, &:active
+          color: #fff
+          background-color: darken($primary-blue, 10%)
+
+      @media screen and (min-width: 768px)
+        +transition(margin-left 200ms ease-in-out, color 200ms ease-in-out, background-color 200ms ease-in-out, opacity 200ms ease-in-out, border-color 200ms ease-in-out, padding 200ms ease-in-out)
+        border-radius: 5px
+        border: solid 2px transparent
+        color: $primary-blue
+        padding: 12px 0 12px 26px
+
+        .scrolling-up.scrolled &
+          border-color: transparent
+          padding: 12px 0
+          margin-left: 0
+
+          &:hover, &:active
+            background-color: #fff
+            color: darken($primary-blue, 10%)
+
+        &:hover, &:active
+          color: $primary-blue
+          border-color: $primary-blue
+          margin-left: 25px
+          padding-right: 26px
+          background: transparent
+          box-shadow: none
+
+    .scrolled &
+      @media screen and (min-width: 768px)
+        a
+          opacity: 1
+          border-color: $primary-blue
+          padding-right: 26px
+          &:hover, &:active
+            color: #fff
+            background-color: $primary-blue
+            margin-left: 0
+
+#mobile-nav-toggle
+  @media screen and (max-width: 767px)
+    margin-top: 16px
+    height: 20px
+    float: right
+
+    a
+      display: block
+
+    svg
+      +transition(fill 200ms ease-in-out)
+      width: 32px
+      height: 22px
+      fill: $dark
+
+    &:hover, &:active
+      svg
+        fill: lighten($dark, 20%)
+
+  @media screen and (min-width: 768px)
+    display: none
+
+  %toggler
+    background-color: lighten($dark, 35%)
+    .with-hero:not(.scrolling) &
+      background-color: #fff
+      box-shadow: 0 1px 0 rgba(#000,.1)
+    width: 25px
+    height: 3px
+    display: block
+    border-radius: 6px
+    +transition(top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, transform 0.3s ease)
+    .nav-expanded &
+      +transition(top 0.3s ease, bottom 0.3s ease, background-color 0.3s ease, transform 0.3s 0.2s ease)
+
+  %toggler-psuedo
+    content: ''
+    position: absolute
+    left: 0
+
+  .toggler
+    @extend %toggler
+    position: relative
+    top: 8px
+    &:before
+      @extend %toggler
+      @extend %toggler-psuedo
+      top: -7px
+    &:after
+      @extend %toggler
+      @extend %toggler-psuedo
+      bottom: -7px
+
+    .nav-expanded &
+      background-color: transparent !important
+      box-shadow: none !important
+      &:before
+        top: 0
+        +rotate(45deg)
+      &:after
+        bottom: 0
+        +rotate(-45deg)
+      &:hover
+        background-color: $bg
+
+  a
+    width: 25px
+    height: 20px
+    &:hover
+      .toggler,
+      .toggler:before,
+      .toggler:after
+        background-color: $text-color
