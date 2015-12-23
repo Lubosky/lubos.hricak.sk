@@ -2,16 +2,6 @@
 # Page options, layouts, aliases and proxies
 ###
 
-# Get bower to play nice with Middleman
-sprockets.append_path File.join root, 'bower_components'
-
-# Configure asset directories
-config[:css_dir] = 'assets/stylesheets'
-config[:js_dir] = 'assets/javascripts'
-config[:images_dir] = 'assets/images'
-config[:fonts_dir] = 'assets/fonts'
-config[:layouts_dir] = 'assets/layouts'
-
 # Per-page layout changes:
 #
 # With no layout
@@ -25,6 +15,23 @@ page '/*.txt', layout: false
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
+
+# General configuration
+
+# Get bower to play nice with Middleman
+sprockets.append_path File.join root, 'bower_components'
+
+# Configure asset directories
+config[:css_dir] = 'assets/stylesheets'
+config[:js_dir] = 'assets/javascripts'
+config[:images_dir] = 'assets/images'
+config[:fonts_dir] = 'assets/fonts'
+config[:layouts_dir] = 'assets/layouts'
+
+# Reload the browser automatically whenever files change
+configure :development do
+  activate :livereload
+end
 
 ###
 # Helpers
