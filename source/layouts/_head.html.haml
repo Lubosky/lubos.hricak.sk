@@ -1,0 +1,39 @@
+%head
+  %meta{charset: 'utf-8'}
+  %meta{content: 'IE=edge,chrome=1', 'http-equiv': 'X-UA-Compatible'}
+  %meta{content: 'initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width', name: 'viewport'}
+
+  %title
+    = current_page.data.title ? current_page.data.title + ' | ' + data.site.title : data.site.title
+
+  %meta{name: 'description', content: "#{current_page.data.description ? current_page.data.description : data.site.description}"}
+  %meta{name: 'keywords', content: "#{current_page.data.keywords ? current_page.data.keywords : data.site.keywords}"}
+  %meta{name: 'author', content: "#{data.site.author.name}"}
+
+  %link{rel: 'shortcut icon', href: "#{data.site.favicon}"}
+
+  %meta{name: 'dcterms.rightsHolder', content: "#{data.site.author.name}"}
+  %meta{name: 'dcterms.dateCopyrighted', content: "#{data.site.dateCopyrighted}"}
+
+  %meta{name: 'HandheldFriendly', content: 'True'}
+  %meta{name: 'MobileOptimized', content: '320'}
+
+  %link{rel: 'canonical', href: "#{current_page.data.canonical ? current_page.data.canonical : data.site.root_url + current_page.url}"}
+
+  %meta{property: 'og:title', content: "#{current_page.data.title ? current_page.data.title : data.site.title}"}
+  %meta{property: 'og:description', content: "#{current_page.data.description ? current_page.data.description : data.site.description}"}
+  %meta{property: 'og:image', content: "#{current_page.data.metadata_image ? current_page.data.metadata_image : data.site.default_image}"}
+
+  %meta{property: 'og:type', content: 'blog'}
+  %meta{property: 'og:url', content: "#{data.site.root_url + current_page.url}"}
+
+  %meta{name: 'twitter:title', content: "#{current_page.data.title ? current_page.data.title : data.site.title}"}
+  %meta{name: 'twitter:description', content: "#{current_page.data.description ? current_page.data.description : data.site.description}"}
+  %meta{name: 'twitter:image', content: "#{current_page.data.metadata_image ? current_page.data.metadata_image : data.site.default_image}"}
+  %meta{name: 'twitter:card', content: 'summary'}
+  %meta{name: 'twitter:creator', content: '@Lubosky'}
+  %meta{name: 'twitter:site', content: '@Lubosky'}
+
+  = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
+
+  = stylesheet_link_tag :application
