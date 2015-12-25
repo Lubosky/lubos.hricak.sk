@@ -18,15 +18,17 @@ page '/*.txt', layout: false
 
 # General configuration
 
-# Get bower to play nice with Middleman
-sprockets.append_path File.join root, 'bower_components'
+# Get Bower to play nice with Middleman
+after_configuration do
+  sprockets.append_path File.join root, 'bower_components'
+end
 
 # Configure asset directories
-config[:css_dir] = 'assets/stylesheets'
-config[:js_dir] = 'assets/javascripts'
-config[:images_dir] = 'assets/images'
-config[:fonts_dir] = 'assets/fonts'
-config[:layouts_dir] = 'assets/layouts'
+set :fonts_dir, 'assets/fonts'
+set :images_dir, 'assets/images'
+set :js_dir, 'assets/javascripts'
+set :css_dir, 'assets/stylesheets'
+set :layouts_dir, 'layouts'
 
 # Reload the browser automatically whenever files change
 configure :development do
