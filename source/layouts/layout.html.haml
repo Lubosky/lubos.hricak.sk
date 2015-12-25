@@ -3,7 +3,10 @@
   = partial 'layouts/head'
 
   %body{class: current_page.data.body_class}
+    = partial 'layouts/nav'
+    .page-container
+      = yield
 
-    = yield
+    = partial 'layouts/footer'
 
     = javascript_include_tag :application, 'data-turbolinks-track' => true

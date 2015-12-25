@@ -1,0 +1,23 @@
+%footer#footer
+  .logo
+    = partial 'layouts/logo'
+  %p
+    = link_to 'Home', data.site.root_url
+    = link_to 'Blog', '/blog'
+    = link_to 'Work', '/work'
+    = link_to 'Contact', '#contact', class: 'trigger-modal'
+  %ul.social
+    %li
+      %a.twitter{href: ''}
+    %li
+      %a.youtube{href: ''}
+    %li
+      %a.facebook{href: ''}
+    %li
+      %a.google-plus{href: ''}
+    %li
+      %a.linkedin{href: ''}
+    %li
+      %a.instagram{href: ''}
+    %li
+      %a.github{href: ''}

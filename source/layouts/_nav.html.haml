@@ -1,0 +1,18 @@
+%nav
+  %section
+    #mobile-nav-toggle
+      %a#nav-toggle{'data-nav-toggle': '', href: '#'}
+        %span.toggler
+    %a.brand{href: "#{data.site.root_url}"}
+      = partial 'layouts/logo'
+    %ul.nav-list
+      %li.nav-item
+        = link_to 'Home', data.site.root_url, class: 'nav-anchor'
+      %li.nav-item
+        = link_to 'Blog', '/blog', class: 'nav-anchor'
+      %li.nav-item
+        = link_to 'Work', '/work', class: 'nav-anchor'
+      %li.nav-item
+        = link_to 'About', '/about', class: 'nav-anchor'
+      %li.nav-item.nav-item-btn-sticky
+        = link_to 'Contact', '#contact', class: 'nav-anchor trigger-modal'
