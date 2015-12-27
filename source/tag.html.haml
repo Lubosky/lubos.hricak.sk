@@ -1,0 +1,25 @@
+---
+pageable: true
+---
+%header
+  %h1
+    #{'#'}
+    = tagname
+%section.page-content
+  .row.flex-grid
+    - page_articles.each_with_index do |article, i|
+      %article.card
+        = link_to article do
+          .card-image
+            = image_tag article.data.image
+          .copy
+            %p.date
+              = article.date.strftime('%B %e, %Y')
+              - if article.data.category != nil
+                in
+                = article.data.category
+            %h3
+              = article.title
+            .excerpt
+              = article.summary(150)
+= partial('layouts/pagination', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
