@@ -62,16 +62,28 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 9
   blog.page_link = '{num}'
+
+  blog.custom_collections = {
+    category: {
+      link: '/category/{category}.html',
+      template: 'category.html'
+    }
+  }
 end
 
 page "/feed.xml", layout: false
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def build_categories(articles)
+    categories = []
+    articles.each do |article|
+      category = article.data.category
+      categories.push(category) unless categories.include? category
+    end
+    return categories
+  end
+end
 
 # Pretty URLs
 activate :directory_indexes

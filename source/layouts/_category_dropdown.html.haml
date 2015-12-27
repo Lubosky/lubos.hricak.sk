@@ -1,0 +1,10 @@
+- categories = build_categories(blog.articles)
+#category_dd.wrapper-dropdown{tabindex: 1}
+  Choose Category
+  %ul.dropdown
+    %li
+      = link_to 'All Categories', '/blog'
+    %span Category
+    - categories.each do |category|
+      %li
+        = link_to category, category_path(category)

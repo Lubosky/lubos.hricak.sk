@@ -12,3 +12,8 @@ $ ->
 $ ->
   $('[data-nav-toggle]').click ->
     $('html').toggleClass 'nav-expanded'
+
+# OPEN CATEGORY DROPDOWN
+$ ->
+  $('#category_dd').click ->
+    $('.wrapper-dropdown').toggleClass 'active'
