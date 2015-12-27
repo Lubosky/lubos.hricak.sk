@@ -1,0 +1,28 @@
+= wrap_layout :layout do
+  %section.post
+    .row
+      .blog-post
+        %h1.post-title
+          = current_article.title
+        - if current_article.data.subtitle != nil
+          %h2.subtitle
+            = current_article.data.subtitle
+        = image_tag current_article.data.image, class: 'has-image'
+  %section.page-content
+    .row
+      .blog-post
+        .meta
+          = image_tag 'avatar.jpg', class: 'avatar'
+          %p
+            %b Lubos Hricak
+            %br
+            %em
+              wrote on
+              = current_article.date.strftime('%B %e, %Y')
+        = yield
+
+        - if current_article.tags.present?
+          %ul#tags
+            - current_article.tags.each do |tag|
+              %li
+                = link_to tag, tag_path(tag)

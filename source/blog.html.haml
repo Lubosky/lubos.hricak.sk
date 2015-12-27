@@ -1,0 +1,23 @@
+---
+pageable: true
+per_page: 9
+---
+%header
+  %h1 Blog
+%section.page-content
+  .row.flex-grid
+    - page_articles.each_with_index do |article, i|
+      %article.card
+        = link_to article.url do
+          .card-image
+            = image_tag article.data.image
+          .copy
+            %p.date
+              = article.date.strftime('%B %e, %Y')
+              - if article.data.category != nil
+                in
+                = article.data.category
+            %h3
+              = article.title
+            .excerpt
+              = article.summary(150)
