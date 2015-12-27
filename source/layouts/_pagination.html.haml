@@ -1,0 +1,15 @@
+%section.pagination
+	.row
+		- if prev_page
+			= link_to 'Previous', prev_page.url, class: "prev page-numbers"
+		- (page_number - 2 .. page_number + 2).select{|i| i > 0 && i <= num_pages}.each do |i|
+			- if i == page_number
+				.current
+					= i
+			- else
+				- p = nil
+				- (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
+				- (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
+				=link_to "#{i}", p && p.url
+		- if next_page
+			= link_to 'Next', next_page.url, class: "next page-numbers"

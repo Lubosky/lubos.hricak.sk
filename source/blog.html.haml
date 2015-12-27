@@ -1,6 +1,5 @@
 ---
 pageable: true
-per_page: 9
 ---
 %header
   %h1 Blog
@@ -21,3 +20,4 @@ per_page: 9
               = article.title
             .excerpt
               = article.summary(150)
+= partial('layouts/pagination', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
