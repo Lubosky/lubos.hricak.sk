@@ -1,0 +1,30 @@
+#home
+  height: 100vh
+  background-image: url('')
+  background-size: 450px
+  background-repeat: no-repeat
+  background-position: -100px bottom
+  @media only screen and (max-width: 500px)
+    height: 100vh
+    background-size: 450px
+    background-repeat: no-repeat
+    background-position: -100px bottom
+  @media only screen and (max-width: 900px) and (min-width: 501px)
+    height: calc(100vh - 250px)
+  .home_wrapper
+    padding: 10em 5em
+    margin-right: 400px
+    @media only screen and (max-width: 767px)
+      padding: 4em 2em
+      margin: 0
+    @media only screen and (max-width: 900px)
+      padding: 6em 3em
+      margin: 0
+    h1
+      @extend .bold
+      font-size: 6em
+      margin: 0
+      @media only screen and (max-width: 767px)
+        font-size: 4em
+    h3
+      text-align: center

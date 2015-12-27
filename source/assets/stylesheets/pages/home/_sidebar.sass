@@ -1,0 +1,165 @@
+#sidebar
+	@extend .bold
+	background-color: $dark-gray
+	width: 400px
+	position: fixed
+	right: 0
+	top: 0
+	bottom: 0
+	#top
+		height: 50vh
+		display: table
+		border: 0
+		border-left: 3px solid lighten($dark-gray, 36%)
+		padding: 0
+		width: 100%
+		+transition(top 0.3s 0.2s  ease-in-out, bottom 0.3s 0.2s  ease-in-out, background-color 0.3s  ease-in-out, transform 0.3s  ease-in-out)
+		.inner
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+			span
+				display: none
+				font-size: 3.5em
+				color: #fff
+				text-transform: uppercase
+				margin: 0
+			i
+				color: rgba(0, 0, 0, 0.35)
+				display: block
+				font-size: 14em
+				overflow: hidden
+				+transition(opacity 1s ease-in-out)
+		&:hover
+			background: #9B59B6
+			.inner
+				span
+					display: block
+					color: $white
+				i
+					display: none
+	#bottom
+		.left, .right
+			float: left
+		.work, .about, .contact, .github, .linkedin
+			border: 3px solid lighten($dark-gray, 36%)
+			border-bottom: 0px
+			border-right: 0
+			display: table
+			+transition(top 0.3s 0.2s ease, bottom 0.3s 0.2s ease, background-color 0.3s ease, transform 0.3s ease)
+		.work:hover i, .about:hover i, .contact:hover i, .github:hover i, .linkedin:hover i
+			color: rgba(255, 255, 255, 1)
+			+transition(all .4s ease-in-out)
+		.work .inner, .about .inner, .contact .inner, .github .inner, .linkedin .inner
+			display: table-cell
+			vertical-align: middle
+			text-align: center
+			color: rgba(0, 0, 0, 0.35)
+		.about i
+			font-size: 5.5em
+		.work span, .about span
+			display: none
+			font-size: 1.75em
+			color: #fff
+			text-transform: uppercase
+			margin: 0
+		.contact i
+			font-size: 4em
+		.github i, .linkedin i
+			font-size: 2.5em
+		.work
+			height: 50vh
+			width: 200px
+			i
+				font-size: 6.5em
+			&:hover
+				background: #FF6B6B
+				/* Work Red */
+				i
+					display: none
+				span
+					display: block
+		.about
+			width: 200px
+			height: 17.5vh
+			&:hover
+				background: #F4D03F
+				/* About Yellow */
+				i
+					display: none
+				span
+					display: block
+		.contact
+			width: 100px
+			height: 32.5vh
+			&:hover
+				background: $green
+				/* Contact Green */
+		.github
+			width: 100px
+			height: 16.25vh
+			&:hover
+				background: $github
+				/* Github Grey */
+		.linkedin
+			width: 100px
+			height: 16.25vh
+			&:hover
+				background: $linkedin
+				/* Linkedin Blue */
+
+@media only screen and (max-width: 900px)
+	#sidebar
+		width: 100%
+		top: auto
+		#top
+			width: 50%
+			float: left
+			height: 250px
+			background-size: 100%
+			border: 0
+			border-top: 3px solid lighten($dark-gray, 36%)
+			.inner
+				span
+					font-size: 1.25em
+				i
+					font-size: 5em
+					position: relative
+					top: 0
+					right: 0
+		#bottom
+			width: 50%
+			float: left
+			.left, .right
+				float: left
+				width: 50%
+			.work
+				height: 250px
+				width: 100%
+				i
+					font-size: 5em
+			.about
+				width: 100%
+				height: 100px
+				i
+					font-size: 4em
+			.work span, .about span
+				font-size: 1.25em
+			.github i, .linkedin i
+				font-size: 2em
+			.contact
+				width: 100%
+				height: 150px
+			.github, .linkedin
+				width: 100%
+				height: 75px
+
+@media only screen and (max-width: 767px)
+	#sidebar
+		#bottom
+			.contact i
+				font-size: 3.25em
+
+@media only screen and (max-width: 500px)
+	#sidebar
+		display: none

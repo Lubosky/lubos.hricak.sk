@@ -1,0 +1,9 @@
+!!!5
+%html{lang: 'en', prefix: 'og: http://ogp.me/ns#'}
+  = partial 'layouts/head'
+
+  %body#home
+    = partial 'layouts/nav'
+    = yield
+
+    = javascript_include_tag :application, 'data-turbolinks-track' => true

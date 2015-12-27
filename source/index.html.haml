@@ -1,0 +1,41 @@
+---
+layout: home
+---
+.home_wrapper
+  %h1
+    This is title.
+  %h3
+    This is subtitle.
+#sidebar
+  = link_to '/blog' do
+    #top.work
+      .inner
+        %i.icon.icon-
+        %span Blog
+  #bottom
+    .left
+      = link_to '/projects' do
+        .work
+          .inner
+            %i.icon.icon-
+            %span Projects
+    .right
+      = link_to '/about' do
+        .about
+          .inner
+            %i.icon.icon-
+            %span About
+      .left
+        = link_to '/#contact', class: 'trigger-modal' do
+          .contact
+            .inner
+              %i.icon.icon-
+      .right
+        = link_to 'https://github.com/Lubosky', target: '_blank', title: 'GitHub' do
+          .github
+            .inner
+              %i.icon.icon-
+        = link_to 'https://twitter.com/Lubosky', target: '_blank', title: 'Linkedin' do
+          .linkedin
+            .inner
+              %i.icon.icon-
