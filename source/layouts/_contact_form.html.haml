@@ -1,0 +1,12 @@
+.modal-wrapper{style: 'display: none;'}
+	.modal
+		.form-embed
+			%h2 Say hello.
+			%p Feel that tingling in your fingertips? That’s the magnetic urge to contact me.
+			#alert
+			%form#ContactForm
+				%input#name.form-control{name: 'name', placeholder: 'Name', type: 'text'}/
+				%input#email.form-control{name: 'email', placeholder: 'Email address', type: 'email'}/
+				%textarea#message.form-control{name: 'message', placeholder: 'Your message'}
+				%button.btn.default.full{type: 'submit'} Send
+		.modal-close
