@@ -4,7 +4,7 @@ pageable: true
 %header
   %h1
     = category
-  = partial 'layouts/category_dropdown'
+  = partial 'layouts/dropdown_category'
 %section.page-content
   .row.flex-grid
     - page_articles.each_with_index do |article, i|
