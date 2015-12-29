@@ -31,41 +31,33 @@ footer
       display: inline-block
       a
         float: left
-        @include size(24px)
+        @include size(26px)
         background: darken($light-gray, 5%) center no-repeat
-        background-size: 16px 16px
         +border-radius(50%)
-        &.github
-          background-position-y: bottom
-          background-size: 20px
         @include transition(background-color .3s $ease-out-quad)
         margin: 2px
 
+      [class^='icon-'],
+      [class*=' icon-']
+        color: $white
       .twitter
-        background-image: url()
         &:hover
           background-color: $twitter
       .youtube
-        background-image: url()
         &:hover
           background-color: $youtube
       .facebook
-        background-image: url()
         &:hover
           background-color: $facebook
       .google-plus
-        background-image: url()
         &:hover
           background-color: $google-plus
       .linkedin
-        background-image: url()
         &:hover
           background-color: $linkedin
       .instagram
-        background-image: url()
         &:hover
           background-color: $instagram
       .github
-        background-image: url()
         &:hover
           background-color: $github

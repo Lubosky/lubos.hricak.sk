@@ -1,18 +1,18 @@
 - title: Twitter
   link: https://twitter.com/Lubosky
-  css_class: twitter
+  css_class: twitter icon-logo-twitter
 - title: YouTube
   link: http://www.youtube.com/c/LubosHricak
-  css_class: youtube
+  css_class: youtube icon-logo-youtube
 - title: Google+
   link: https://plus.google.com/+LubosHricak
-  css_class: google-plus
+  css_class: google-plus icon-logo-google-plus
 - title: LinkedIn
   link: https://linkedin.com/in/hricakl
-  css_class: linkedin
+  css_class: linkedin icon-logo-linkedin
 - title: Instagram
   link: https://www.instagram.com/stressedbee/
-  css_class: instagram
+  css_class: instagram icon-logo-instagram
 - title: GitHub
   link: https://github.com/Lubosky
-  css_class: github
+  css_class: github icon-logo-github
