@@ -1,0 +1,26 @@
+---
+pageable: true
+---
+%header
+  %h1 Work
+%section.page-content
+  .row
+    - data.work.each do |project|
+      .project-block
+        .project-snapshot
+          = image_tag project.image
+        .project-meta
+          %h3
+            = project.name
+          %strong
+            = project.position
+          %span.date
+            = project.date
+          %p
+            = project.description
+          - if project.tags present?
+            %p
+              %span.sbold
+                Tags:
+              = project.tags
+          = link_to project.link, project.link, target: '_blank', title: project.name
