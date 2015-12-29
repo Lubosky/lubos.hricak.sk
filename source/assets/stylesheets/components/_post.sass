@@ -2,7 +2,7 @@
   padding: 70px 0 0
   img.has-image
     border: none
-    border-radius: 10px
+    +border-radius(10px)
 
   h1
     &.post-title
@@ -22,7 +22,7 @@
       margin: 0 0 45px
       text-align: center
 
-  @media screen and (max-width: 767px)
+  @include media($tablet)
     padding: 50px 0 0
 
     h1

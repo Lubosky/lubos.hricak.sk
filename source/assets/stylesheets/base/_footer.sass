@@ -4,8 +4,6 @@ footer
   padding-top: 80px
   float: left
   width: 100%
-  &.home
-    display: none
 
   .logo
     fill: darken($light-gray, 5%)
@@ -36,7 +34,7 @@ footer
         @include size(24px)
         background: darken($light-gray, 5%) center no-repeat
         background-size: 16px 16px
-        border-radius: 50%
+        +border-radius(50%)
         &.github
           background-position-y: bottom
           background-size: 20px

@@ -11,7 +11,7 @@
     background: rgba(0, 0, 0, .88)
     .modal
       +transform(translateY(0))
-      @media screen and (max-width: 767px)
+      @include media($tablet)
         +transform(translate(-50%, 0))
 
   .modal
@@ -22,13 +22,12 @@
     width: 100%
     padding: 40px
     background: $white
-    border-radius: $border-radius
+    +border-radius($border-radius)
     margin: -260px 0 0 -280px
     text-align: center
-    @media screen and (max-width: 767px)
+    @include media($tablet)
       +position(fixed, 0 null null 50%)
       +transform(translate(-50%, -500px))
-      border-radius: 0
       margin: 0 auto
 
     .modal-close

@@ -8,7 +8,7 @@
     border: 2px solid $light-gray
     margin: 0 2px
     color: $text-color
-    border-radius: 5px
+    +border-radius($border-radius)
     padding: 8px 12px
     display: inline-block
     background: $white
@@ -24,5 +24,4 @@
     border-color: tint($light-gray, 70%)
 
     &:hover
-      border-color: tint($light-gray, 70%)
       color: $text-color

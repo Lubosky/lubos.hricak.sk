@@ -7,7 +7,7 @@ body
 
 .page-container
   position: relative
-  @media screen and (max-width: 767px)
+  @include media($tablet)
     +transition(transform 0.3s cubic-bezier(0.35, -0.25, 0.35, 0))
     .nav-expanded &
       +transform(translateX(-$mobile-nav-width))
@@ -19,7 +19,7 @@ section
   &.page-content
     padding: 70px 0
 
-  article.card:not(.featured)
+  article.card
     font-size: $text-normal
 
 ul
@@ -74,7 +74,7 @@ header
     margin: 0 auto
     display: block
     border: 10px solid $subtle-bg
-    border-radius: $border-radius
+    +border-radius($border-radius)
     max-width: 100%
     width: auto
     height: auto
@@ -103,7 +103,7 @@ div.card
     position: relative
     border: solid 1px #eee
     border-width: 0px 1px 2px 1px
-    border-radius: 5px
+    +border-radius($border-radius)
 
 a
   color: $white
