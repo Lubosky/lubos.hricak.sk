@@ -23,12 +23,18 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.icon-glasses:before,
+.icon-lab:before,
+.icon-link:before,
 .icon-logo-github:before,
 .icon-logo-google-plus:before,
 .icon-logo-instagram:before,
 .icon-logo-linkedin:before,
 .icon-logo-twitter:before,
-.icon-logo-youtube:before {
+.icon-logo-youtube:before,
+.icon-message:before,
+.icon-send:before,
+.icon-tag:before {
   display: inline-block;
   font-family: "icons";
   font-style: normal;
@@ -43,16 +49,28 @@
   font-smoothing: antialiased;
 }
 
+.icon-glasses:before { content: "\f113"; }
+.icon-lab:before { content: "\f118"; }
+.icon-link:before { content: "\f109"; }
 .icon-logo-github:before { content: "\f101"; }
 .icon-logo-google-plus:before { content: "\f102"; }
 .icon-logo-instagram:before { content: "\f103"; }
 .icon-logo-linkedin:before { content: "\f104"; }
 .icon-logo-twitter:before { content: "\f105"; }
 .icon-logo-youtube:before { content: "\f106"; }
+.icon-message:before { content: "\f115"; }
+.icon-send:before { content: "\f119"; }
+.icon-tag:before { content: "\f10f"; }
 
+$font-icons-glasses: "\f113";
+$font-icons-lab: "\f118";
+$font-icons-link: "\f109";
 $font-icons-logo-github: "\f101";
 $font-icons-logo-google-plus: "\f102";
 $font-icons-logo-instagram: "\f103";
 $font-icons-logo-linkedin: "\f104";
 $font-icons-logo-twitter: "\f105";
 $font-icons-logo-youtube: "\f106";
+$font-icons-message: "\f115";
+$font-icons-send: "\f119";
+$font-icons-tag: "\f10f";
