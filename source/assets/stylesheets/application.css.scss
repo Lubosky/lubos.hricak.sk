@@ -14,7 +14,8 @@
 // HELPERS
 @import
   'helpers/variables',
-  'helpers/mixins';
+  'helpers/mixins',
+  'components/icons';
 
 // BASE
 @import
@@ -32,7 +33,6 @@
   'components/dropdown',
   'components/fonts',
   'components/form-layouts',
-  'components/icons',
   'components/meta',
   'components/modal',
   'components/pagination',
