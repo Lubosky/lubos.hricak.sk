@@ -44,3 +44,7 @@ $(document).keyup (e) ->
   if e.keyCode == 27
     $('.modal-wrapper').fadeOut().removeClass 'open-modal'
     $('input, textarea').val ''
+
+# VERTCAL TEXT TRANSFORM
+e = document.getElementsByClassName('vtext')[0]
+e.innerHTML = '<span>' + e.innerHTML.split('').join('</span><span>') + '</span>'
