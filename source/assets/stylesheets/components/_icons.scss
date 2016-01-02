@@ -23,6 +23,7 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.icon-blockquote:before,
 .icon-glasses:before,
 .icon-lab:before,
 .icon-link:before,
@@ -49,6 +50,7 @@
   font-smoothing: antialiased;
 }
 
+.icon-blockquote:before { content: "\f11a"; }
 .icon-glasses:before { content: "\f113"; }
 .icon-lab:before { content: "\f118"; }
 .icon-link:before { content: "\f109"; }
@@ -62,6 +64,7 @@
 .icon-send:before { content: "\f119"; }
 .icon-tag:before { content: "\f10f"; }
 
+$font-icons-blockquote: "\f11a";
 $font-icons-glasses: "\f113";
 $font-icons-lab: "\f118";
 $font-icons-link: "\f109";
