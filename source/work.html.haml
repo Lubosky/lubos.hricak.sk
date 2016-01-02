@@ -19,8 +19,5 @@ pageable: true
           %p
             = project.description
           - if project.tags present?
-            %p
-              %span.sbold
-                Tags:
-              = project.tags
-          = link_to project.link, project.link, target: '_blank', title: project.name
+            %p.tag #{project.tags}
+          = link_to project.link, project.link, target: '_blank', title: project.name, class: 'link'

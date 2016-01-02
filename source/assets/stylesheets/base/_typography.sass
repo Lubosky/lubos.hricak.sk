@@ -190,8 +190,9 @@ hr
 
 // BLOCKQUOTE
 blockquote
-  background: transparent url('') center center no-repeat
-  background-size: 150px 100x
+  @include icon(before, $font-icons-blockquote)
+    color: lighten($primary-blue, 27%)
+    font-size: 36px
   border: none
   padding: 40px 10%
   margin: 20px 0

@@ -49,6 +49,15 @@
       text-align: left
       font-size: $text-default
 
+    .tag
+      @include icon(before, $font-icons-tag)
+        padding-right: 7px
+
+    .link
+      @extend .sbold
+      @include icon(before, $font-icons-link)
+        padding-right: 7px
+
   .project-snapshot
     float: left
     width: 40%
