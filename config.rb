@@ -16,7 +16,23 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+###
 # General configuration
+###
+
+# Redcarpet configuration
+set :markdown_engine, :redcarpet
+set :markdown,
+    autolink: true,
+    fenced_code_blocks: true,
+    gh_blockcode: true,
+    highlight: true,
+    no_intra_emphasis: true,
+    smartypants: true,
+    strikethrough: true,
+    superscript: true,
+    tables: true,
+    underline: true
 
 # Get Bower to play nice with Middleman
 after_configuration do
