@@ -37,6 +37,8 @@ set :markdown,
 # Syntax highlighting
 activate :syntax
 
+activate :gemoji, emoji_dir: 'assets/images/emoji'
+
 # Set Haml to render HTML5 by default
 set :haml, format: :html5, ugly: true
 

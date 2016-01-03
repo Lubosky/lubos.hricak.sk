@@ -47,6 +47,7 @@ GEM
     fastimage (1.8.1)
       addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
+    gemoji (2.1.0)
     haml (4.0.7)
       tilt
     hamster (2.0.0)
@@ -95,6 +96,9 @@ GEM
       sass (>= 3.4)
       tilt (~> 1.4.1)
       uglifier (~> 2.6)
+    middleman-gemoji (0.0.6)
+      gemoji (>= 2.1)
+      middleman (>= 3.3)
     middleman-livereload (3.4.5)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -155,6 +159,7 @@ DEPENDENCIES
   middleman (~> 4.0.0)
   middleman-blog
   middleman-compass (>= 4.0.0)
+  middleman-gemoji (~> 0.0.6)
   middleman-livereload
   middleman-sprockets (~> 4.0.0.rc.1)
   middleman-syntax (~> 2.1)
