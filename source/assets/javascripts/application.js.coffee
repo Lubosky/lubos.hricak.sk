@@ -1,9 +1,11 @@
 #= require jquery
 
-# NAVIGATION ON HOMEPAGE
+# NAVIGATION & VERTCAL TEXT TRANSFORM ON HOMEPAGE
 $(document).ready ->
   if location.pathname == '/'
     $('nav').addClass 'home'
+    e = document.getElementsByClassName('vtext')[0]
+    e.innerHTML = '<span>' + e.innerHTML.split('').join('</span><span>') + '</span>'
 
 # STICKY BUTTON
 $(document).scroll ->
@@ -44,7 +46,3 @@ $(document).keyup (e) ->
   if e.keyCode == 27
     $('.modal-wrapper').fadeOut().removeClass 'open-modal'
     $('input, textarea').val ''
-
-# VERTCAL TEXT TRANSFORM
-e = document.getElementsByClassName('vtext')[0]
-e.innerHTML = '<span>' + e.innerHTML.split('').join('</span><span>') + '</span>'
