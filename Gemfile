@@ -14,6 +14,7 @@ gem 'middleman-blog'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.0.0.rc.1'
+gem 'middleman-syntax', '~> 2.1'
 
 gem 'bourbon'
 gem 'neat'

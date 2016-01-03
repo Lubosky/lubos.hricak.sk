@@ -34,6 +34,12 @@ set :markdown,
     tables: true,
     underline: true
 
+# Syntax highlighting
+activate :syntax
+
+# Set Haml to render HTML5 by default
+set :haml, format: :html5, ugly: true
+
 # Get Bower to play nice with Middleman
 after_configuration do
   sprockets.append_path File.join root, 'bower_components'
