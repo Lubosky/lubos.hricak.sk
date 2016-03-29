@@ -1,6 +1,6 @@
 #sidebar
 	@extend .bold
-	background-color: $dark-gray
+	background-color: rgba($black,.35)
 	width: 400px
 	position: fixed
 	right: 0
@@ -11,7 +11,7 @@
 		vertical-align: middle
 		text-align: center
 		i
-			color: rgba($black, 0.35)
+			color: rgba($white, .6)
 			display: block
 			overflow: hidden
 			+transition(opacity 1s ease-in-out)
@@ -25,7 +25,7 @@
 		height: 50vh
 		display: table
 		border: 0
-		border-left: 3px solid lighten($dark-gray, 36%)
+		border-left: 2px solid lighten($border-color-home, 9%)
 		padding: 0
 		width: 100%
 		+transition(top 0.3s 0.2s  ease-in-out, bottom 0.3s 0.2s  ease-in-out, background-color 0.3s  ease-in-out, transform 0.3s  ease-in-out)
@@ -49,7 +49,7 @@
 		.left, .right
 			float: left
 		.work, .about, .contact, .github, .twitter
-			border: 3px solid lighten($dark-gray, 36%)
+			border: 2px solid lighten($border-color-home, 9%)
 			border-bottom: 0px
 			border-right: 0
 			display: table
@@ -81,17 +81,17 @@
 		.work
 			height: 50vh
 			&:hover
-				background: $red
+				background: $yellow
 		.about
 			height: 17.5vh
 			&:hover
-				background: $yellow
+				background: $green
 		.contact
 			height: 32.5vh
 			i
 				font-size: 64px
 			&:hover
-				background: $green
+				background: $red
 		.github, .twitter
 			i
 				font-size: 40px
@@ -114,7 +114,7 @@
 			height: 250px
 			background-size: 100%
 			border: 0
-			border-top: 3px solid lighten($dark-gray, 36%)
+			border-top: 2px solid lighten($border-color-home, 9%)
 			.inner
 				span
 					font-size: 26px
