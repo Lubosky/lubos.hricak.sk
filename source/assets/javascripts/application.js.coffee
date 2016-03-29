@@ -1,4 +1,5 @@
-#= require jquery
+#= require jquery/dist/jquery
+#= require typed.js/dist/typed.min.js
 
 # NAVIGATION & VERTCAL TEXT TRANSFORM ON HOMEPAGE
 $(document).ready ->
@@ -46,3 +47,15 @@ $(document).keyup (e) ->
   if e.keyCode == 27
     $('.modal-wrapper').fadeOut().removeClass 'open-modal'
     $('input, textarea').val ''
+
+#TYPED.JS
+$ ->
+  $('.typed').typed
+    strings: [
+      "an '80s kid"
+      "a web developer"
+      "an entrepreneur"
+    ]
+    typeSpeed: 90,
+    backDelay: 500,
+    loop: false

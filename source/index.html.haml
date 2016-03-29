@@ -2,10 +2,15 @@
 layout: home
 ---
 .home_wrapper
-  %h1
-    This is title.
-  %h3
-    This is subtitle.
+  .header
+    Hey there...
+    %br
+      %span.dark My name is Lubos. I'm
+      %span.typed an '80s kid, a web developer, an entrepreneur
+  .subheader
+    I thrive in an environment where no two days are exactly the same...
+    %br
+      Along with #{link_to '@RKohei', 'https://twitter.com/RKohei',  target: '_blank'} I have started #{link_to '@GliderPath', 'https://tms.gliderpath.com', target: '_blank'}, a SaaS solution helping translation companies worldwide.
 #sidebar
   = link_to '/blog' do
     #top.work
