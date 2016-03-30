@@ -2,10 +2,19 @@
 @mixin clearfix()
   &:before,
   &:after
-    content: ' '
+    content: ''
     display: table
   &:after
     clear: both
+
+// PSEUDO ELEMENT
+@mixin pseudo()
+  content: ''
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
 
 // OPACITY
 @mixin opacity($value, $important: '')
