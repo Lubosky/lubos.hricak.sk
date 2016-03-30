@@ -31,13 +31,24 @@ ul
 
 header
   width: 100%
-  background-image: url()
+  background-color: $primary-blue
+  background-image: url(image_path('header-bg.svg'))
+  background-size: contain
   border-bottom: solid 2px $bg
+  min-height: 290px
   padding: 80px 0
   position: relative
+  h1,
+  h3
+    color: $white
+    text-align: center
   h1
     font-size: 3rem
     margin-bottom: 0
+  h3
+    @extend em
+    font-size: 1.25em
+    margin-top: 0.75rem
   @media only screen and(max-width:350px)
     h1
       font-size: 28px
