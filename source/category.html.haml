@@ -10,8 +10,7 @@ pageable: true
     - page_articles.each_with_index do |article, i|
       %article.card
         = link_to article do
-          .card-image
-            = image_tag article.data.image
+          .card-image{ style: "background-image: url('#{article.data.image}')" }
           .copy
             %p.date
               = article.date.strftime('%B %e, %Y')
