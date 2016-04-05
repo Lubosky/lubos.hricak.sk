@@ -20,5 +20,5 @@ pageable: true
             %h3
               = article.title
             .excerpt
-              = article.summary
+              = Nokogiri::HTML(article.summary).text
 = partial('layouts/pagination', locals: {prev_page: prev_page, next_page: next_page, page_number: page_number, num_pages: num_pages})
