@@ -31,7 +31,7 @@ $ ->
 
 # OPEN CONTACT FORM
 $(document).ready ->
-  $('.trigger-modal').click ->
+  $('[data-trigger="modal"]').click ->
     $('html').removeClass 'nav-expanded'
     setTimeout (->
       $('.modal-wrapper').fadeIn(200).addClass 'open-modal'), 300
