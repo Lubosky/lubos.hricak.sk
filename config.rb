@@ -115,8 +115,26 @@ activate :directory_indexes
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
+
+  # Minify HTML on build
+  activate :minify_html
+end
+
+# Setup Middleman Deploy
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'gh-pages'
+
+  committer_app = "#{Middleman::Deploy::PACKAGE} v#{Middleman::Deploy::VERSION}"
+  commit_message = "Deployed using #{committer_app}"
+
+  if ENV["TRAVIS_BUILD_NUMBER"] then
+    commit_message += " (Travis Build \##{ENV["TRAVIS_BUILD_NUMBER"]})"
+  end
+
+  deploy.commit_message = commit_message
 end

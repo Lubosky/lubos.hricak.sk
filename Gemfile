@@ -16,6 +16,7 @@ gem 'middleman-gemoji', '~> 0.0.6'
 gem 'middleman-livereload'
 gem 'middleman-sprockets', '~> 4.0.0.rc.1'
 gem 'middleman-syntax', '~> 2.1'
+gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
 
 gem 'bourbon'
 gem 'neat'
