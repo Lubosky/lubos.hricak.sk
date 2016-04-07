@@ -19,6 +19,8 @@ gem 'middleman-syntax', '~> 2.1'
 gem 'middleman-deploy', '>= 2.0.0.pre.alpha'
 gem 'middleman-google-analytics', '~> 2.1'
 
+gem 'rake'
+
 gem 'bourbon'
 gem 'neat'
 
