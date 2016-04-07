@@ -27,8 +27,14 @@ $ ->
 
 # OPEN CATEGORY DROPDOWN
 $ ->
-  $('#category_dd').click ->
+  $('#category_dd').click (e) ->
+    e.stopPropagation();
     $('.wrapper-dropdown').toggleClass 'active'
+
+# CLOSE CATEGORY DROPDOWN ON CLICK
+$ ->
+  $('html').click ->
+    $('.wrapper-dropdown').removeClass 'active'
 
 # OPEN CONTACT FORM
 $(document).ready ->
@@ -43,11 +49,12 @@ $(document).ready ->
     $('.modal-wrapper').fadeOut().removeClass 'open-modal'
     $('input, textarea').val ''
 
-# CLOSE CONTACT FORM 'ESC'
+# CLOSE CONTACT FORM / CATEGORY DROPDOWN => 'ESC'
 $(document).keyup (e) ->
   if e.keyCode == 27
     $('.modal-wrapper').fadeOut().removeClass 'open-modal'
     $('input, textarea').val ''
+    $('.wrapper-dropdown').removeClass 'active'
 
 #TYPED.JS
 $ ->
