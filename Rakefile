@@ -6,9 +6,6 @@ task :test do
 end
 
 task :deploy do
-  puts "\nCopying GitHub specific files"
-  try "cp -rv ./github/* ./build/"
-
   puts "\nDeploying to GitHub"
   try "middleman deploy"
 end
@@ -24,7 +21,7 @@ namespace :travis do
     try "echo ${GH_TOKEN} > ./.git/credentials"
     try "git config --global user.name ${GH_USER}"
     try "git config --global user.email ${GH_EMAIL}"
-    try "git remote set-url origin \"https://${GH_TOKEN}@github.com:Lubosky/lubos.hricak.sk.git\""
+    try "git remote set-url origin \"https://${GH_TOKEN}@github.com/Lubosky/lubos.hricak.sk.git\""
 
     Rake::Task["deploy"].invoke
   end
