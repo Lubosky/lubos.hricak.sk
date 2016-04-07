@@ -1,4 +1,5 @@
 #= require jquery/dist/jquery
+#= require mailer
 #= require typed.js/dist/typed.min.js
 
 # NAVIGATION & VERTCAL TEXT TRANSFORM ON HOMEPAGE
