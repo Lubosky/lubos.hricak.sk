@@ -95,6 +95,12 @@ activate :blog do |blog|
   }
 end
 
+# Activate Google Analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-51535991-1'
+  ga.development = false
+end
+
 page "/feed.xml", layout: false
 
 # Methods defined in the helpers block are available in templates
