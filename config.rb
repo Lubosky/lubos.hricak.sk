@@ -125,9 +125,6 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
-
-  # Minify HTML on build
-  activate :minify_html
 end
 
 # Setup Middleman Deploy
