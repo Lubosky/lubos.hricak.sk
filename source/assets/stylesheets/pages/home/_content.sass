@@ -6,8 +6,10 @@
   .home_wrapper
     padding: 20em 10em
     margin-right: 400px
+    @media only screen and (min-width: 901px) and (max-width: 1366px)
+      padding: 12.5em 5em
     @media only screen and (max-width: $large-screen)
-      padding: 9em 3em
+      padding: 10em 3em
       margin: 0
     .header,
     .subheader
@@ -16,12 +18,16 @@
       text-align: left
     .header
       font-size: 3.5em
+      @media only screen and (max-width: $large-screen)
+        font-size: 2.5em
       .dark
         color: $dark
     .subheader
       font-size: 1.5em
       line-height: 1.5em
       margin-top: 1em
+      @media only screen and (max-width: $large-screen)
+        font-size: 1.25em
     a
       color: $dark
       &:hover
