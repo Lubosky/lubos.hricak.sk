@@ -5,7 +5,7 @@
     The application uses Ruby on Rails on the backend and beside sketching the initial prototype I also handled re-design of the application after MVP was ready.
   tags: SaaS, Ruby on Rails, Sass
   link: https://tms.gliderpath.com
-  image: portfolio/gliderpath-translation-management-system.jpg
+  image: ../portfolio/gliderpath-translation-management-system.jpg
 
 - name: GliderPath Academy
   position: Co-founder & Course Creator
@@ -14,7 +14,7 @@
     to deliver content to the users hovewer at the moment I'm working on complete re-design of whole application to meet our needs regarding course creation and student flow.
   tags: Ruby on Rails, Sass, jQuery
   link: https://academy.gliderpath.com
-  image: portfolio/gliderpath-academy-online-learning-platform.jpg
+  image: ../portfolio/gliderpath-academy-online-learning-platform.jpg
 
 - name: Red Hat Velocity
   position: Web Developer
@@ -23,4 +23,4 @@
     from external source, sorting it according tags and importing into WordPress. I was responsible for developing and designing the application.
   tags: WordPress, jQuery
   link:
-  image: portfolio/red-hat-mo-velocity-portal.jpg
+  image: ../portfolio/red-hat-mo-velocity-portal.jpg
