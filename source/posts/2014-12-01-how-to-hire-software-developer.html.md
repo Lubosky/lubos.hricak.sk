@@ -26,11 +26,11 @@ You'll see their honest and truthful answers to questions that people have been 
 
 Questions like…
 
-*What's the best way to filter out “bad” developers?*
-*How do you evaluate a developer if you have no coding experience?*
-*Can you provide a frame of reference for cost when hiring a developer? How do you know what's reasonable?*
-*How do you protect yourself from getting screwed over by a developer?*
-*How do you set and hold to a production timetable? What's the best way to estimate how long things will take to build?*
+*What's the best way to filter out “bad” developers?*  
+*How do you evaluate a developer if you have no coding experience?*  
+*Can you provide a frame of reference for cost when hiring a developer? How do you know what's reasonable?*  
+*How do you protect yourself from getting screwed over by a developer?*  
+*How do you set and hold to a production timetable? What's the best way to estimate how long things will take to build?*  
 *What I love about this interview is their answers are so fresh.*
 
 They literally just went through the process of searching for a developer within the past six months or so.
