@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-04-18T00:00:00+00:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Hiring Freelancers - A Complete Guide to Hiring (Not Only) Developers via Upwork</title>
+    <link rel="alternate" href="http://blog.url.com/blog/hiring-freelancers-a-complete-guide-to-hiring-not-only-developers-via-upwork/"/>
+    <id>http://blog.url.com/blog/hiring-freelancers-a-complete-guide-to-hiring-not-only-developers-via-upwork/</id>
+    <published>2016-04-18T00:00:00+00:00</published>
+    <updated>2016-04-25T17:38:28+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Scared of choosing the wrong developer to build your SaaS or start-up project? Well, I can understand that. After all, I&amp;rsquo;m not only a developer myself but I&amp;rsquo;m also a startup owner that needs to hire a crew. I understand the concerns we all have when it comes to building a product or requiring a service. This is probably one of the most intimidating things, especially if you do not have any technical skills that can help you understand what you are hiring for!&lt;/p&gt;
+
+&lt;p&gt;There are few things we did to help us to find those rare gems: developers you can trust when it comes to bringing your idea into life. And there are also few other tips which we use over and over when hiring people via Upwork. I would like to share those with you and try and break it down as much as possible here in this article.&lt;/p&gt;
+
+&lt;h3&gt;Separating the Wheat From the Chaff&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start with what to expect. I&amp;rsquo;m sure, you have questions now, for example&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;How long should all this take?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;How long does it take to hire a developer?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;Can I just post an offer out there and find a guy the next day?&lt;/em&gt;  &lt;/p&gt;
+
+&lt;p&gt;Unfortunately the answer to this question is no.&lt;/p&gt;
+
+&lt;p&gt;The process of hiring a developer is probably going to take a fair amount of your time. It can be anywhere from 3 days up to several weeks when trying to find the right person to work on a specific job. So it&amp;rsquo;s a very broad range. &lt;/p&gt;
+
+&lt;p&gt;But if you are doing this for a first time, consider it taking at least 1 or 2 weeks.&lt;/p&gt;
+
+&lt;p&gt;The reason for that is you really want to weed out all the bad developers (and there&amp;rsquo;s a lot of them out there).&lt;/p&gt;
+
+&lt;p&gt;You want to find somebody that you&amp;rsquo;re going to be able to work with long-term, somebody that&amp;rsquo;s got some passion for the project you&amp;rsquo;re working on.&lt;/p&gt;
+
+&lt;p&gt;Of course they&amp;rsquo;re looking for a paycheck at the end of the day but you also want somebody who&amp;rsquo;s interested in what you are doing. You don&amp;rsquo;t want just somebody to write a code but somebody who may also guide or advise you when needed, somebody who may bring his own ideas into the project.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The more time you spend upfront finding the right match the happier you will be down the road working with this person.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Next thing that&amp;rsquo;s super important is that &lt;strong&gt;you&amp;rsquo;ve got to understand what you&amp;rsquo;re building&lt;/strong&gt;. The developer cannot and won&amp;rsquo;t figure that out for you. If you do not have clear specifications for what you want to create, you&amp;rsquo;re not in a place where you should be hiring a developer. Just keep that in mind, that you as well should do your homework. &lt;img class="gemoji" alt="pencil" src="/assets/images/emoji/unicode/1f4dd.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Okay, so you&amp;rsquo;ve got your specs and now are ready to craft your job offer.&lt;/p&gt;
+
+&lt;p&gt;No worries you are not going to put all the specs into the job offer, that step was just for your own sake.&lt;/p&gt;
+
+&lt;h3&gt;Crafting Your Post&lt;/h3&gt;
+
+&lt;p&gt;One of the things you want to include in your job offer is a &lt;strong&gt;good catchy headline&lt;/strong&gt;. I will leave this one on you but here you probably want to make sure that the developer understands that there may be a long-term opportunity there.&lt;/p&gt;
+
+&lt;p&gt;The next thing is the actual job posting where you &lt;strong&gt;describe what you want to build&lt;/strong&gt;, &lt;strong&gt;who you are looking for&lt;/strong&gt; and &lt;strong&gt;what the outcome should look like&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;No worries, you are not going to post you full specifications. The key thing here you want the developers to realize after reading your posting is: &lt;em&gt;&amp;ldquo;Okay, this person has actually thought about this project a little more.&amp;rdquo;&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;There are lot of posts which are exact opposite. Posts and concepts which take 2 seconds to come up with. Try to open Upwork to see how many you can find. &lt;strong&gt;Don&amp;rsquo;t be like that!&lt;/strong&gt; &lt;img class="gemoji" alt="punch" src="/assets/images/emoji/unicode/1f44a.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at it from your perspective. When checking the answers to your offer, you will immediately recognize the generic answers (or pasted from somewhere else) from the ones where somebody put the effort into it. Developers are not different. If you post something generic, the ones you probably want to hire will skip your offer leaving you with the ones you probably want to avoid. You should keep in mind that: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The quality of developers applying is directly proportional to the quality of your job posting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Keywords and Categories&lt;/h3&gt;
+
+&lt;p&gt;To help you with compiling your job posting you can check Upwork or other sites for similar jobs using the keywords relevant to your project. You want to see what others are posting.&lt;/p&gt;
+
+&lt;p&gt;In your post use bullet points, be specific in what the outcome should be, what technologies they should be familiar with. Let the developers know that you are ready to hire. That you have all the specifications in place, that your mockups are ready. You can also ask them for time-frame but in order to do that you must be very clear about what you want to be done.&lt;/p&gt;
+
+&lt;p&gt;Also make sure you get your job category right as well. You don&amp;rsquo;t want to be posting SaaS application under Web Design for example. So just make sure you get the category right.&lt;/p&gt;
+
+&lt;h3&gt;The Secret Phrase&lt;/h3&gt;
+
+&lt;p&gt;The next thing and our favorite one is a secret phrase somewhere in the post. We use this to make sure that the developers or whoever applying actually read the whole job posting. &lt;/p&gt;
+
+&lt;p&gt;What I&amp;rsquo;m talking about? &lt;/p&gt;
+
+&lt;p&gt;Try to include some phrase (I like &lt;strong&gt;BLUE HIPPO&lt;/strong&gt;) in your job posting and ask the applicants to include this phrase at the top of their reply. If it&amp;rsquo;s not there, you can go ahead and reject their reply immediately. &lt;/p&gt;
+
+&lt;p&gt;Why? &lt;/p&gt;
+
+&lt;p&gt;Because if they didn&amp;rsquo;t take time to read and understand your posting now, how you can make sure that they will read your specifications later. This is very efficient way to quickly reject responses and not to be buried or overwhelmed by the amount of responses you will get (because you will get tons of them &lt;img class="gemoji" alt="wink" src="/assets/images/emoji/unicode/1f609.png" /&gt; ). And you may be surprised how many people you&amp;rsquo;ll actually weed out when you&amp;rsquo;re doing this kind of the review.&lt;/p&gt;
+
+&lt;h3&gt;Choosing the Right Fit&lt;/h3&gt;
+
+&lt;p&gt;Last time we posted on Upwork, we got 72 replies. By excluding those who did not reply with our secret phrase, we were left with only 18 candidates. I bet you see the difference now.
+This is also the number you are most likely to see when posting your own job offer. In most cases you will be able to reject ¾ of applicants simply just by not including your secret phrase in their reply. You may lose some good developers as well but trust me, this is the most effective way to filter developers and go through all responses.&lt;/p&gt;
+
+&lt;h3&gt;Feedback and Ratings&lt;/h3&gt;
+
+&lt;p&gt;Next thing you want to do is to look at their feedback. You can check the reviews people have left. You probably want to keep developers with rating above 4 stars but I would advise not to be biased only by this. Take time to read the reviews and look at the context and scope of the projects, they have been working on in the past as well as how much the project was. You are looking for similarities with your project. &lt;em&gt;Have they done this type of work before?&lt;/em&gt; &lt;em&gt;How long they have been around as developers?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Very important is also to check their current workload. If they are already out there working on 4 other full-time projects right now, you want to stay away from them.&lt;/p&gt;
+
+&lt;p&gt;After filtering out you will probably end up with up to 5 developers you really would like to work with. You&amp;rsquo;ve looked at ratings, feedback, review, similar projects, their rates are within your budget, but now is time to start communicate with them.&lt;/p&gt;
+
+&lt;h3&gt;Communication&lt;/h3&gt;
+
+&lt;p&gt;Send an email to all selected developers. It doesn&amp;rsquo;t have to be long. Just thank them for applying and tell them that they were selected. Just don&amp;rsquo;t make the message sound too generic. &lt;strong&gt;It&amp;rsquo;s all about building a relationship&lt;/strong&gt; so you can mention their past projects. Or let them know that you did look at their background or why you think they are a good fit.&lt;/p&gt;
+
+&lt;p&gt;The next thing you want to do is to send them a more detailed specifications, either for the project or for the test project. You want to get their thoughts and feedback on the specifications you&amp;rsquo;ve send them. It&amp;rsquo;s important that the instructions you give them are very clear, and you aren&amp;rsquo;t jumping any steps. Communication has to be very clear from your side in order to get a developer to respond.&lt;/p&gt;
+
+&lt;p&gt;What you&amp;rsquo;re looking to see is how their communication skills are. You want them to get back to you with good questions or feedback related to your specifications. You can use Skype to chat with them, but note that - if they are not native - most of them will write good English but will also have an accent. In any case, rather than pronunciation, you&amp;rsquo;re looking for things such as complete and prompt responses.
+If somebody is stalling, it&amp;rsquo;s usually a bad sign and you probably would not want to work with this person. You also want to make sure that they&amp;rsquo;ve really actually read everything and they understand everything. Understanding comes from questions so they usually should have some. Ask them also what in their opinion can be done differently or better. Their feedback is also very important as you don&amp;rsquo;t want them to do everything you say (as you may not have experience) but you are also looking to their input.&lt;/p&gt;
+
+&lt;h3&gt;Reducing Your Shortlist&lt;/h3&gt;
+
+&lt;p&gt;At this point you should already have some idea about with whom you would like to move on or at least to have shortlist of 2-3 selected developers who may be a good fit for your project. Now it&amp;rsquo;s better to have a call with them. &lt;strong&gt;If you are looking somebody for a long term project, you yourself have to feel comfortable with that person.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, what you want to talk about is project itself so spend some time talking about project and its specifications. Ask them about their opinion. You do not want to walk them through the specifications in a detail. Rather than that it&amp;rsquo;s probably better to talk about some small piece of project which can serve as a test for them. What you are looking for is the timeline, this test job can be completed. Ask them what&amp;rsquo;s the reasonable time, this can be completed.&lt;/p&gt;
+
+&lt;p&gt;If 3 out of 4 will tell you that this can be done in 3 days and the last tell you 15 days, that&amp;rsquo;s probably not going to work. You generally want a short (paid) test project to see if they can execute and prove to you they know what they&amp;rsquo;re doing. That&amp;rsquo;s the main goal with the test project.&lt;/p&gt;
+
+&lt;p&gt;Also as I mentioned before, be very clear with your instructions. &lt;strong&gt;If your specifications were poorly written and the deliverable won&amp;rsquo;t be what you expected, you should know that the developer is not the one you should blame.&lt;/strong&gt; You should also get them agree on date when the deliverable should be delivered and tell them when are you planning to make a decision. It&amp;rsquo;s better to be straight from very beginning.&lt;/p&gt;
+
+&lt;h3&gt;What&amp;rsquo;s Next&lt;/h3&gt;
+
+&lt;p&gt;After the test project or even real project started, one thing you have to do is to make sure that you are available. In case they have questions or they need to confirm some assumption. If you want them to respond quickly you should expect no less from yourself.&lt;/p&gt;
+
+&lt;p&gt;And you should not forget about checking in. I don&amp;rsquo;t mean overlooking everything they are doing, that wouldn&amp;rsquo;t make any good. You can agree on periodic emails (once a day, once every 3 days) with the summary of what has been done. Some developers send these summaries automatically, but it&amp;rsquo;s always better to agree.&lt;/p&gt;
+
+&lt;p&gt;Once the time for test project to be delivered is over, you actually want to see if they delivered what they were supposed to. &lt;em&gt;Does it have all the requested features as per your specifications?&lt;/em&gt; &lt;em&gt;Does it work as you expected it to work?&lt;/em&gt; &lt;em&gt;And if not, why not?&lt;/em&gt; If there is an issue, give them a chance to fix it. But by this time you should already know who&amp;rsquo;s the best fit for your project.&lt;/p&gt;
+
+&lt;p&gt;You want somebody who&amp;rsquo;s interested in what you&amp;rsquo;re doing, who got the product you&amp;rsquo;re trying to build or who is showing some passion about it. Of course beside technical part of the project, but that&amp;rsquo;s why you made them to pass the test. Also keep a list of all top candidates just in case your 1st choice did not work out. You can tell them that you will consider them for future work.&lt;/p&gt;
+
+&lt;h3&gt;Final Thoughts&lt;/h3&gt;
+
+&lt;p&gt;One more thing related to development: you should make sure that you are owner of the code. What do I mean? There were many cases when people became hostages of developers and could not get their source code when they wanted to change the developer. Get a private repository on GitHub and give the contribution rights to your developer so he can push the changes. This way you remain the owner of the source code and your developer will be the one who writes it. This way you can also verify the work as there should be commits from your developer at least on daily basis.&lt;/p&gt;
+
+&lt;p&gt;Okay, that&amp;rsquo;s all! I hope you find it helpful and in case you have any questions you can use the comment form below.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Launching a New Product? Validate it with Facebook Ads First!</title>
+    <link rel="alternate" href="http://blog.url.com/blog/how-to-validate-your-idea-using-facebook-ads/"/>
+    <id>http://blog.url.com/blog/how-to-validate-your-idea-using-facebook-ads/</id>
+    <published>2015-07-16T00:00:00+00:00</published>
+    <updated>2016-04-25T17:38:28+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;If you are building product from scratch while funding its development via pre-selling, you will surely come to the point that you exhaust your email list or you are not pre-selling fast enough. We&amp;rsquo;ve been there too! While building &lt;a title="GliderPath - Effortless Project Management" href="https://tms.gliderpath.com/"&gt;GliderPath&lt;/a&gt;, our SaaS application for translation and localization project managers, we came to the point when contacting prospects via email simply became too much work. You had to gain trust and build relationship with potential customer in order to pre-sell and the sales cycle stretches for too long.&lt;/p&gt;
+
+&lt;p&gt;When you get to that point, you have to find an alternative channel to find customers. That&amp;rsquo;s why we moved to Facebook and tried its advertising platform in order to close more sales and speed up the process. Since there may be lot of you who are trying to build products from scratch or are looking for other ways to access customers, I put together this article describing, what we did, how we did it and also why we went through some steps.&lt;/p&gt;
+
+&lt;h3&gt;Identifying Pain Points and Validating via Email&lt;/h3&gt;
+
+&lt;p&gt;First, let me just give you quick overview of what&amp;rsquo;s GliderPath and how it came to be. &lt;strong&gt;GliderPath is a translation management system, helping small and medium sized translation companies to streamline their processes.&lt;/strong&gt; It&amp;rsquo;s a product of an idea extraction, a process during which we interviewed over 200 business owners in order to identify pain points in their businesses. Pain points which are painful enough, they would pay us to create a solution in order to remove these pains from their life.&lt;/p&gt;
+
+&lt;p&gt;Listening to 200 business owners gave us a solid idea of their pains.&lt;/p&gt;
+
+&lt;p&gt;Asking them what would help them to remove those pains, helped us to understand how the solution should look like.&lt;/p&gt;
+
+&lt;p&gt;And asking them for money to build such a solution gave us group of people ready to invest. This also validated our idea, that such a solution we are about to create is not only needed but people are willing to pay upfront. How cool is that!&lt;/p&gt;
+
+&lt;p&gt;Up until this point it was all about emails. &lt;strong&gt;We&amp;rsquo;ve send tons of emails, got rejected several times but also connected with some awesome people, some of them became our customers.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;However the disadvantage of cold emailing is that sales cycle is a bit long. Still, you are sending emails to people who never heard of you or your product and even if the product may help them, it takes time to build trust.&lt;/p&gt;
+
+&lt;h3&gt;How We Got Over 5000% of Return On Investment with Facebook Ads&lt;/h3&gt;
+
+&lt;p&gt;At that point we tried Facebook ads to attract more business owners and bring more money to help us move forward with development. We not only tried. &lt;strong&gt;We&amp;rsquo;ve launched a campaign resulting in additional $7k being added to our business while spending only something less than $100.&lt;/strong&gt; So what we did?&lt;/p&gt;
+
+&lt;h3&gt;We Created  a Facebook Fan Page&lt;/h3&gt;
+
+&lt;p&gt;This may look obvious but the point here was just to create a Facebook page. If you are starting a business or validating an idea, you don&amp;rsquo;t need to spend weeks or months to create and add content to your business page. You need to just go for it fast, and make it short, sweet and to the point, without losing momentum.&lt;/p&gt;
+
+&lt;p&gt;Just create it (you can do it &lt;a title="Create a Facebook Page" href="https://www.facebook.com/pages/create/"&gt;here&lt;/a&gt;), fill some additional information about your business, and add the logo and cover picture. That&amp;rsquo;s it! You may or may not want ask your friends to like your page to have some action going on in there. At the very beginning when we started our campaign, our Facebook business page looked a bit sad and empty. We had less than 20 fans and there was no content posted on that page. But we said &lt;strong&gt;“screw it, let&amp;rsquo;s do it“&lt;/strong&gt; anyway.&lt;/p&gt;
+
+&lt;p&gt;We had a page which was going to serve as part of the funnel. And we had to act quickly. Just note that you don&amp;rsquo;t even need a Fan page to validate an idea or to estimate market size. You can simply set up landing page and drive traffic to that page.&lt;/p&gt;
+
+&lt;h3&gt;Know Your Buyer Persona&lt;/h3&gt;
+
+&lt;p&gt;From now on, make this your motto. &lt;strong&gt;If you want to validate a business idea, you have to know whom that idea should help or make life easier.&lt;/strong&gt; You not only have to know who your potential customer is but also what pains and struggles your potential customer has to go through on his/her day-to-day business.&lt;/p&gt;
+
+&lt;p&gt;Knowing, who your potential customer is will help you with targeting. Knowing his pains and struggles will help you with creating compelling message. You have to come up with something he or she will associate with.&lt;/p&gt;
+
+&lt;p&gt;With GliderPath we had this easier. We had our research done so we knew exactly what made people tick. We knew what they were struggling with and we also had something that eventually could remove that burden from their lives. Now it was just about getting the message in front of them.&lt;/p&gt;
+
+&lt;h3&gt;Create a Compelling Message and Set the Funnel&lt;/h3&gt;
+
+&lt;p&gt;Creating a message that our potential customers would identify with was the easiest part of the process. We already knew what pains trigger emotions as we spent hours and hours talking to business owners. The funnel was not set to directly drive people to our website. We set campaign to get likes to our website. This is one of the ads we used:&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="GliderPath Facebook ad" src="/posts/how-to-validate-your-idea-using-facebook-ads/GliderPath-FB-ad-like-page.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The ad itself doesn&amp;rsquo;t say much. It addresses the pain our prospects were experiencing while mentioning a possible solution. And, of course, we used a discount as a hook. People who clicked on it became fans and you could shoot them messages directly.&lt;/p&gt;
+
+&lt;p&gt;We didn&amp;rsquo;t want to send people directly to our website. Instead we created a post on our fan page describing our Early Adopter&amp;rsquo;s program in more detail. Also this post already contained a link to our website so people who were interested enough after first 2 rounds (ad + page post our fan page), had one more round to go on our website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="GliderPath Facebook business page post" src="/posts/how-to-validate-your-idea-using-facebook-ads/GliderPath-FB-page-post.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Why we did it this way?&lt;/p&gt;
+
+&lt;p&gt;Some people get hooked only for the discount. Some people are interested but not enough to make it to the website and while being sent directly to the website they wouldn&amp;rsquo;t probably apply for demo anyway.&lt;/p&gt;
+
+&lt;p&gt;Our idea was making it actually more difficult for potential customers. We wanted to disqualify all those who are not interested enough from those who were ready to become our Early Adopters. &lt;strong&gt;Eventually you may get less leads but if those leads are quality leads, it makes sense.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Also people booking a demo with us already knew what we are doing, they knew that we are building a product and they knew we were financing it by pre-selling. And they were also aware of all benefits available for them once they became Early Adopters. So once they booked a demo, we did not have to explain from scratch what we were all about.&lt;/p&gt;
+
+&lt;p&gt;The awkward part of cold emails and cold calls is when you explain who you are and what you are doing in order to get their attention. With our Facebook ads funnel, we completely skipped the awkwardness and went right down to business!&lt;/p&gt;
+
+&lt;p&gt;Now you have perfectly warm lead in front of you eager to know more about your product or service. Even if you are building the product from scratch. Just make sure that you have a form on every page of your website to apply for a demo or contact you. It happens that people check what you are doing first, they may check the pricing page as well so just make it easier for those who are ready to apply.&lt;/p&gt;
+
+&lt;h3&gt;Try Fast, Fail Fast - Targeting, Adjusting and Results&lt;/h3&gt;
+
+&lt;p&gt;As for targeting we were after people with specific interests. We also created a custom audience and uploaded emails of people we already contacted via our email campaigns but who did not respond. You never know if they don&amp;rsquo;t respond because they are not interested or because your message ended up in a spam folder. So including your already existing list is a good idea. All in all we were targeting slightly more than 2000 people with our ad.&lt;/p&gt;
+
+&lt;p&gt;It is important to note that the sample message I showed above was the final message we used. We were adjusting it every 2 days or so to get better results. You want to try and fail quickly so there is no need to leave the ad running for one week if it&amp;rsquo;s obvious after 1-2 days that is not working. &lt;strong&gt;The faster you fail, the faster you can move on to try the next thing until you succeed.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see how many clicks your ad is getting in Facebook Ads Reports. If people are not liking or clicking on your ad, adjust the message. Good thing is that on Facebook you can create several ads at no extra cost and test different picture or text. If people are clicking on your ad but they are not making it your website, adjust the post on you Facebook page. You can see how your posts are doing on your business page Insights. And finally, if people are making to your website, but you are not getting any bookings, then is something wrong with your landing page. The key is to test. You will hardly make at the first time. So test it until you get it right.&lt;/p&gt;
+
+&lt;h3&gt;A Small Budget is not a Problem&lt;/h3&gt;
+
+&lt;p&gt;The great part about Facebook ads is that you can do well even if your budget is small. We had our daily budget set at $3.50. Eventually we raised it to $5 when we got the message right but we still tried to keep it low cost. &lt;strong&gt;Initially we spent $115.55 on Facebook ads and landed 3 new clients worth $6k.&lt;/strong&gt; We eventually added one more customer as a result of our Facebook campaign however this one didn&amp;rsquo;t book the demo right away. He noticed our ad, however he started looking for similar system only few weeks later. Knowing our name he finally got to us and eventually became a customer.&lt;/p&gt;
+
+&lt;p&gt;During the campaign we also got &lt;strong&gt;12 bookings&lt;/strong&gt;. That makes our &lt;strong&gt;cost per lead $9.63&lt;/strong&gt;. You may think that 12 bookings over the 3 weeks it&amp;rsquo;s not a lot but all leads were hot and we eventually converted 25% &lt;em&gt;(33% when counting one post campaign customer)&lt;/em&gt; of them into customers. The &lt;strong&gt;cost per acquisition goes somewhere $38.5&lt;/strong&gt; &lt;em&gt;($28.8)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;If I compare it with our email campaign, that&amp;rsquo;s definitely better.&lt;/p&gt;
+
+&lt;p&gt;For our email campaigns we were paying our VA around $35 per 100 leads. The quality of the leads varied. Sometimes you won&amp;rsquo;t convert anybody out of those 100 you sent emails to, sometimes you got only 1 booking.&lt;/p&gt;
+
+&lt;p&gt;It is an interesting comparison. &lt;strong&gt;The biggest advantage I see in running Facebook ads comparing to cold emails, is the reduction in sales cycle.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When sending emails, it would take us at least 2 emails to get somebody on the phone and between 3 to 5 calls to make a deal if we convert.&lt;/p&gt;
+
+&lt;p&gt;When running ads, the shortest sales cycle was actually 2 calls. In average we needed 3 calls maximum to convert a lead into a client. It really makes difference if you qualify your leads prior to booking a demo. You are saving yourself and your potential customers lot of time.&lt;/p&gt;
+
+&lt;h3&gt;Food for thought&lt;/h3&gt;
+
+&lt;p&gt;While our Facebook campaign definitely had a success, if doing it today I would do few things differently.&lt;/p&gt;
+
+&lt;p&gt;First, install the Facebook remarketing pixel on your website so you can track visitors of your website and display them your ad later when they leave your website. If you do this you will be actively building audience from visitors of your site. Later you can promote a webinar for example to these people and eventually land some more pre-sales. You eventually will exhaust your targeting options, so by actively building your audience right from the start you are also building a list of people knowing your product.&lt;/p&gt;
+
+&lt;p&gt;Instead of driving people to you Facebook fan page and from there to our website I could probably also set a form with a series of questions to get to know more about the people who are applying and see whether they are good match for your product. You can drive traffic directly to this website and let people apply. This seems like a good idea however it makes also sense in case you want to validate your idea. You make people go through series of questions and you are also building a list of potential beta testers or early adopters.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s really up to you and possibilities Facebook is offering to you with it&amp;rsquo;s targeting are seemingly endless.&lt;/p&gt;
+
+&lt;p&gt;Just make sure, you don&amp;rsquo;t spend too much time setting up your Facebook business page or your ad. Just set it up quickly to see whether it will work for you or not. And if not, adjust it or move to another channel. Remember, if you are about to fail, you want to fail quickly.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How to Sell the Crap Out of Your Products Using Facebook Advertising</title>
+    <link rel="alternate" href="http://blog.url.com/blog/how-to-sell-the-crap-out-of-your-products-using-facebook-advertising/"/>
+    <id>http://blog.url.com/blog/how-to-sell-the-crap-out-of-your-products-using-facebook-advertising/</id>
+    <published>2015-06-10T00:00:00+00:00</published>
+    <updated>2016-04-25T17:38:28+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;There are many business owners out there. You are maybe one of them. And as the others, you are probably also having the same question in your mind. &lt;strong&gt;&lt;em&gt;How do I get customers?&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;Where I should get them?&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;How do I get my product in front of my audience?&lt;/em&gt;&lt;/strong&gt; Well, you may have heard about Facebook advertising, right? And you probably also heard that it is not effective? Well, it’s not your fault, that you may be thinking this. Those who are claiming this, are probably the ones who tried it once, expecting big results which did not came and now they are saying that it’s impossible to sell on Facebook. But it’s not their fault either. It’s easy to get to that conclusion if all you do on Facebook is just to boost your post.&lt;/p&gt;
+
+&lt;p&gt;The truth is that is not that easy but there is hope. And actually it may not be nearly as hard as you think. All you need is a budget (no worries, you can play with even with a small budget) and you can get started with the following pointers.&lt;/p&gt;
+
+&lt;h3&gt;Facebook Business Page&lt;/h3&gt;
+
+&lt;p&gt;This one is the obvious starting point. &lt;strong&gt;You cannot do business on Facebook without Facebook business page.&lt;/strong&gt; And you will definitely need one to start with advertising. Just go over to &lt;a title="Create a Facebook Page" href="https://www.facebook.com/pages/create/"&gt;this link&lt;/a&gt; and you may just set up one right away. It’s pretty easy. Just select the category of your business, tell Facebook more about what you or your business are doing, upload your logo and you are ready to go. From now on you can build your audience on Facebook, deliver valuable content to them, engage with them and, of course, sell to them.&lt;/p&gt;
+
+&lt;h3&gt;Get Facebook Advertising Account&lt;/h3&gt;
+
+&lt;p&gt;When talking about selling to your fans or to any audience on Facebook, I mean selling mainly via Facebook ads. You can set up your advertising account at no cost. Facebook has plenty of options for promoting your brand and business and you will probably want to start with one of the following objectives:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clicks to website&lt;/li&gt;
+&lt;li&gt;Website conversions&lt;/li&gt;
+&lt;li&gt;Offer claims&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Objectives help you to optimize your campaign so it’s important to know what you want to achieve with your campaign. &lt;em&gt;Do you want to drive traffic to your website?&lt;/em&gt; Then choose &lt;strong&gt;Clicks to Website&lt;/strong&gt; as an objective. &lt;em&gt;Do you want to increase number of sold products?&lt;/em&gt; Then you should be optimizing your ad to get more &lt;strong&gt;website conversions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Do you want to reach people who live in or have recently visited the area around your business location? Well, Facebook can definitely help you with that. There are plenty of objectives you can choose from for your ads and if you are unsure of what to do or you are simply busy, you can always delegate so somebody else can take of your advertising account and you will just get weekly report. But the biggest reason why you should be using Facebook Ads are in the paragraphs below.
+​&lt;/p&gt;
+
+&lt;h3&gt;Get Your Offer in Front of the Right Audience&lt;/h3&gt;
+
+&lt;p&gt;Targeting options Facebook is offering to all advertisers are simply awesome. &lt;strong&gt;There are almost an infinite number of targeting combinations you can use for in your campaigns&lt;/strong&gt; however, who you are targeting, should be always used based on your objective.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Do you want to sell more products?&lt;/em&gt; Then you should be targeting people who already know your brand or know what you are doing, like your fans or people who visited your website. Why? Well, if you do not know me or do not trust me, how likely you are going to whip out a credit card to buy a product from me? You are right; it’s very unlikely.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="3 Steps to Effective Cold Emails" src="/posts/how-to-sell-the-crap-out-of-your-products-using-facebook-advertising/facebook-audience.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the other hand if you just want to raise brand awareness or get some exposure, then targeting people who already know you is not such a good idea. So what about targeting audience which is not connected to your brand but, based on their interests and demographic, may be interested in what you have to say? Or what about targeting the audience similar to your fans or an audience similar to your website visitors?
+&lt;strong&gt;Targeting shouldn’t be that hard if you know your audience and of course if you know also the objective of your campaign.&lt;/strong&gt; So just keep that in mind.
+​&lt;/p&gt;
+
+&lt;h3&gt;Target Your Existing Clients&lt;/h3&gt;
+
+&lt;p&gt;One of the cool features Facebook is offering is the ability to import your email database and display your ads to people on your email list. Of course, you may be asking why on the earth would you do that if you are already sending your monthly newsletter to your customers or subscribers. I am getting a lot of newsletters too. Do I read them? Sometimes. Do I click the links inside them? Well, rarely. The same may be true for your clients and subscribers. Your email may go directly to their spam folder or it may get lost and buried among hundreds of similar emails. That’s why targeting your email list makes sense. Besides, these people already know you and trusted you enough to leave their email with you, so they are more likely to convert if you make the right offer.&lt;/p&gt;
+
+&lt;p&gt;You can even go further and segment your email list to people who opted-in for your e-book but never purchased from you; or people who, for example, purchased specific product and now they might be interest in the upgrade you are offering. It’s totally up to you. Just know that you have this possibility.
+​&lt;/p&gt;
+
+&lt;h3&gt;Use Remarketing&lt;/h3&gt;
+
+&lt;p&gt;Never heard of remarketing? Well, now it’s time to get familiar with it. It’s really awesome and &lt;em&gt;it basically lets you advertise to people who have visited your website or even specific page on your website and therefore shown interest in your product or service&lt;/em&gt;. How cool is that! Display an ad to somebody who is genuinely interested in your product.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Facebook Remarketing" src="/posts/how-to-sell-the-crap-out-of-your-products-using-facebook-advertising/facebook-remarketing.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;How you can use it? There are number of ways. Imagine a potential customer who visited your website skimming through the products and even added some of them to the cart. But he did not finish the order. That’s pity. It would be even more if you could not follow up. But now you can. In a sense. You can go ahead and target your ad only to users who did not finish the order. You can tailor your message specifically to these users and you can even offer them a discount so they are more willing to go and finish the purchase.&lt;/p&gt;
+
+&lt;p&gt;You can also segment your website visitors according what section of your website they visited or only target visitors of specific page or you can build your fan page around all website visitors. You have the capability to do that and it would be shame not to use it.
+​&lt;/p&gt;
+
+&lt;h3&gt;Track Your Conversions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Whatever amount you spend on your Facebook ads, you should always track what you are getting out of it.&lt;/strong&gt; You should forget about CTR, impressions or clicks your ad receive right away. Why? Because it doesn’t matter! It’s pretty useless to me if my ad received tons of clicks, but none of those clicks led to conversions. So instead of focusing on the wrong metrics, you should be focusing on those that matter to your business. And Facebook does a pretty good job in helping you to determine which of your ads are actually leading to revenue.&lt;/p&gt;
+
+&lt;p&gt;Installing a conversion tracking pixel on your site so you will be able to track all conversions is not an option. It’s a must! You should definitely install a conversion tracking pixel on your site. Otherwise you may be throwing your money away. Conversion tracking will allow you to track whether the user performed the desired action you set as an objective for your ad, whether it is a purchase, registration to webinar or an e-book download. And you can even set the conversion value so you can better track ROI.
+​&lt;/p&gt;
+
+&lt;h3&gt;Test, Track, Measure, Adapt&lt;/h3&gt;
+
+&lt;p&gt;Everything can be tested! That’s the fact. And you should be testing as well. &lt;strong&gt;The devil is in the details and even the smaller element can drastically improve your marketing performance.&lt;/strong&gt; Sometimes it is the change of the picture which boosts the performance of your ad. The other time it can be text on call to action button or the position of the button itself. Or you may find out that women between 25 and 39 respond to your ad 2x better than men of the same age. It’s all about testing. And tracking as well. Luckily for you, Facebook ads reports make the whole work of tracking and measuring your campaigns a lot easier. They will allow you to display all relevant data and learn about what actually works and doesn’t work. And when you have all the data, you can easily adapt and optimize your advertising for success.
+​&lt;/p&gt;
+
+&lt;h3&gt;Don’t Sell on Facebook&lt;/h3&gt;
+
+&lt;p&gt;I bet you didn’t see this one coming! Ok, let me re-phrase it. You shouldn’t sell to your Facebook audience at first. It may work for some of you but usually it doesn’t. And it makes sense. If you are trying to attract new audience who never heard of you, expecting them to give their credit card number over to you and buy from you, it’s very unlikely that you will succeed. Instead you should be focusing in growing your brand awareness and getting more exposure. You can run ads to get more page likes or to promote interesting and valuable content to people who never heard of you. That’s why I am saying you shouldn’t sell… at first. &lt;strong&gt;Instead of selling, focus on building a relationship with your fans and increasing trust by giving them additional value.&lt;/strong&gt; It requires a bit more of work but it’s worth it! Once you become an authority to these people, selling your services and products will become way easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Facebook Selling Funnel" src="/posts/how-to-sell-the-crap-out-of-your-products-using-facebook-advertising/facebook-selling-funnel.png" /&gt;
+​&lt;/p&gt;
+
+&lt;h3&gt;Bring Theory to Practice&lt;/h3&gt;
+
+&lt;p&gt;I could continue diving deeper into the importance of the above mentioned points. But for now, the key getaway is that selling on Facebook is possible and Facebook ads can be vital for your success. However like everything else it requires a bit of work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Now it’s your turn!&lt;/strong&gt; How do you promote or sell your products or services on Facebook? Are the using some of the tactics above and if so, are they working for you? Also don’t be afraid to ask a question in case you encountered a problem with your ads or something is not clear. I would love to hear your stories of using ads on Facebook. Share below! &lt;img class="gemoji" alt="point_down" src="/assets/images/emoji/unicode/1f447.png" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>How to Lockdown a Rockstar Developers to Work with Them</title>
+    <link rel="alternate" href="http://blog.url.com/blog/how-to-hire-software-developer/"/>
+    <id>http://blog.url.com/blog/how-to-hire-software-developer/</id>
+    <published>2014-12-01T00:00:00+00:00</published>
+    <updated>2016-04-25T17:38:28+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Hey, we&amp;rsquo;ve got some pretty awesome opportunity to be interviewed by &lt;strong&gt;The Foundation&lt;/strong&gt; crew. It was awesome, as the interview can not only help people who are looking for software developer or still thinking about joining the Foundation, but it was also great chance for us to reflect on what we&amp;rsquo;ve done in past couple of months. It&amp;rsquo;s mentioned in the interview that sometimes we are so busy with pursuing our dreams that we just forget to celebrate small wins. We focus too much on getting happy and not being happy right now when it should be complete opposite. So I&amp;rsquo;m really grateful for this interview as it pretty much sums our journey from the beginning to the present. Hope it will help some of you as well…&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;As a follow-up to the guide, I wanna introduce you to the founders of &lt;strong&gt;GliderPath, a project management software for companies in the translation industry&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lubos and Romina are a badass couple from the Czech Republic who went through The Foundation over the past 10 months.&lt;/p&gt;
+
+&lt;p&gt;They didn&amp;rsquo;t code the software themselves.
+They didn&amp;rsquo;t hire any developers through friends or referral.
+And they didn&amp;rsquo;t know anything about how to hire high quality developers when they first started.
+Despite all that, they&amp;rsquo;ve been able to lockdown &lt;strong&gt;“A player”&lt;/strong&gt; developers to work with them.&lt;/p&gt;
+
+&lt;p&gt;We thought they&amp;rsquo;d be the perfect follow up to the last action guide. You can read the interview we did with them below.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll see their honest and truthful answers to questions that people have been leaving on our blog about hiring developers.&lt;/p&gt;
+
+&lt;p&gt;Questions like…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What&amp;rsquo;s the best way to filter out “bad” developers?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;How do you evaluate a developer if you have no coding experience?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;Can you provide a frame of reference for cost when hiring a developer? How do you know what&amp;rsquo;s reasonable?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;How do you protect yourself from getting screwed over by a developer?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;How do you set and hold to a production timetable? What&amp;rsquo;s the best way to estimate how long things will take to build?&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;What I love about this interview is their answers are so fresh.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;They literally just went through the process of searching for a developer within the past six months or so.&lt;/p&gt;
+
+&lt;p&gt;Maybe even more recent.&lt;/p&gt;
+
+&lt;p&gt;They started from a clean slate, of having no experience before in hiring developers.&lt;/p&gt;
+
+&lt;p&gt;I find their insights so valuable, since they know exactly what it&amp;rsquo;s like to start from scratch.&lt;/p&gt;
+
+&lt;p&gt;Sometimes advice can be tainted when it&amp;rsquo;s coming from experienced experts, because they might forget what it&amp;rsquo;s like to to be at ground zero.&lt;/p&gt;
+
+&lt;p&gt;Check it out below, you&amp;rsquo;ll love it.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s in text, and we kept it pretty raw and conversational so you could get a feel for Lubos and Romina.&lt;/p&gt;
+
+&lt;p&gt;They&amp;rsquo;re amazing. I love &amp;lsquo;em.&lt;/p&gt;
+
+&lt;p&gt;They had so much energy, positivity, and care while doing this interview.&lt;/p&gt;
+
+&lt;p&gt;I wish you could hear their voices.&lt;/p&gt;
+
+&lt;p&gt;We would&amp;rsquo;ve shared the audio interview, but the quality was a bit spotty.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve heard that most of us read faster than we listen anyway, because a lot of us can skim and pick up more than we think in the process.&lt;/p&gt;
+
+&lt;p&gt;Anyway… here it is! &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;In a nutshell, what is your software business? What does it do?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; GliderPath is a project management software. It&amp;rsquo;s specifically tailored for the translation and localization industry. Our edge is that it&amp;rsquo;s very simple, easy to use and easy to learn. It&amp;rsquo;s very user-friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; To give more background about the industry… there&amp;rsquo;s a ton of software out there. And the users are very savvy with the technology. It was difficult to come up with something interesting they hadn&amp;rsquo;t seen before. We thought the best approach that we could take was to keep things simple. This is what they love about the software. They&amp;rsquo;re able to get what they want in just a few clicks. Since the industry is so saturated with software, I guess nobody really did what they teach in The Foundation… which is to listen to your customer. A lot of the existing software out there is a bit complicated, because it was all developed from the developer&amp;rsquo;s point of view.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;What was your background before starting GliderPath? What skills did you have for business?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; I come from the industry actually. I was a project manager for a very long time, in companies of different sizes, and in translation companies of different sizes. Before that I was a translator. Later I began to focus on business development for the translation industry. And then I got tired… and tried to find something else &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;. So my background is mainly project management, with a little bit of business development there. But everything within the translation industry.&lt;/p&gt;
+
+&lt;p&gt;Outside of my experience here, I had no other skills for business. Not in entrepreneurship either. I enjoyed the corporate world, but got tired of not being my own boss.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; I studied civil engineering, but right after university, it was tough to find job here related to that, so I found a job in the corporate world. In the meantime, I started to create websites mainly for me and for my friends, and started doing it full time because I liked it. It was fun. So yeah… I was Civil Engineer who never actually practiced engineering &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Why did you want to start a software business?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We wanted to create something meaningful. Also, we wanted to be our own bosses. We wanted to be mobile. We both have families in different parts of the world that we both love to travel. We didn&amp;rsquo;t want to restrict seeing them to two weeks every year when our boss&amp;rsquo; give us vacation time. We wanted to make sure that we would be able to travel all over the world.&lt;/p&gt;
+
+&lt;p&gt;At the same we wanted to give something back or contribute with what we were doing. We wanted to create something that would help people – business owners in this case. But people in general – to also live the life of their dreams. Every time we present GliderPath, we let business owners know we want to help them streamline their processes and save time, so they can do what they love most. It can be anything. It can be to have more time to in your business, or more time to spend with your family. We want to help in some way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; I guess when everything started, one or maybe two years ago… we knew that we wanted something else other than our jobs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We also ran heard about Dane and Andy at AwesomenessFest. It&amp;rsquo;s like a mixture of Burning Man and TED talks…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Amazing people, mostly entrepreneurs. We were there as corporate workers at the time. It was so funny because we were like looking at everyone like they were superheroes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We saw that there was a possibility of something else that we were not seeing before. We saw that it was possible to be an entrepreneur, and enjoy your work, and do what you love. It was possible to make tons of money doing what you love. It was also possible to be rich and to be helpful and contribute to the world. This was November last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah, it was one month before the launch of the 2013 class of The Foundation. So we had heard about The Foundation because of Awesomenessfest, and from there we wanted to start a software company. We followed the blog and stayed up to date through emails to find out about enrollment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Can you share the high-level story on your journey and experience with finding a developer?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Okay. I can give the high level, and then Lubos can give you the details. Everything related to developers involved a lot of trial and error. We were following the steps in The Foundation. We decided to try oDesk, and started getting lots of back and forth conversations with developers.&lt;/p&gt;
+
+&lt;p&gt;It was a matter of talking to them individually, and trying to see if they&amp;rsquo;d be a good match for the software &lt;strong&gt;AND&lt;/strong&gt; to us as people. We interviewed a lot of people. We were between two or three at the end.&lt;/p&gt;
+
+&lt;p&gt;We decided to go for the guys who were freelancers. But they were sort of like a group of freelancers… so we knew that they&amp;rsquo;d have each other&amp;rsquo;s backs in case of issues came up or someone got sick. They were also in the same time zone as us. That was important for us, because we wanted less friction for communication.&lt;/p&gt;
+
+&lt;p&gt;So that&amp;rsquo;s the high level. It&amp;rsquo;s a story with a happy ending. But there were a lot of phases in between. I guess Lubos will give you more details on that &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah that pretty much sums it up. In the beginning we were pretty specific with our instructions for the developers. But then we started using user stories to give an idea of how the customer would use the software. That worked a lot better because developers are smart. By giving them specific things to do, and limiting their creativity, we actually capped off the potential of the software. So user stories have been very helpful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; I guess there are a couple of big lessons learned for us in relation to managing developers. The most important, at least for us, is that developers do what you tell them to do, which is very logical. Usually when there&amp;rsquo;s a problem with development, it&amp;rsquo;s not developer&amp;rsquo;s fault.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s incorrect instructions or incorrect assumptions, or some misunderstanding or miscommunication on our side. The second lesson learned is that developers are super smart and they like to figure out things. That&amp;rsquo;s why they are developers. So if we give them instructions we sometimes limit creativity. By giving them user stories, we let them brainstorm the best way to solve the issue for the customer.&lt;/p&gt;
+
+&lt;p&gt;And the third lesson learned is that agile development is great. Managing by “sprints” is good. Sprints should be short enough that we&amp;rsquo;re in control. This is so that we know that they are working, and that they are meeting the priorities exactly how we need them. If you just give them a very long timeline, they might just use a lot of it as free time, and do the work at the end, close to the deadline. It&amp;rsquo;s best to know what your priorities are and work with them on short sprints. For us, week-long sprints work well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;What&amp;rsquo;s the best way to filter out “bad” developers?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; It depends what you mean by bad developers. If by bad developers you mean those who can&amp;rsquo;t make what you visualize appen, you can try having them do a small test job that takes a week or so to do. It&amp;rsquo;s important that the instructions you give them are very clear, and you aren&amp;rsquo;t jumping any steps. Communication has to be very clear from your side in order to get a developer to respond.&lt;/p&gt;
+
+&lt;p&gt;We find that the best developers that we interviewed are the ones who communicated the most, and have their own ideas and suggestions on how to do things. If someone just accepts your instructions without having a suggestion, comment, or way to do it better, you might want to be be a little skeptical of how experienced they are.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Also, you should feel comfortable hanging out with your developer, because you&amp;rsquo;re going to have to talk to them for a ery long time, and very often. So if you don&amp;rsquo;t feel comfortable with the way they are, or the way that they interact with you, just discard them, because it&amp;rsquo;s not going to be fun working with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;How do you evaluate a developer if you have no coding experience?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; A great question, and it&amp;rsquo;s related to what we were saying before. There are a couple of things that you can do, but it&amp;rsquo;s mainly related to whether this person delivers, and delivers something that makes sense for you. You may have no coding experience, but you know what your software is supposed to do, and how it&amp;rsquo;s supposed to look and function.&lt;/p&gt;
+
+&lt;p&gt;You may not be able to evaluate how clean their code is while they are writing it, but definitely you&amp;rsquo;re able to evaluate performance, communication, and whether they deliver what you asked them or not. If you really, really want to make sure the code is good and high quality, you can hire somebody to check for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah. Also check their portfolio. That was also a way we evaluated. If they&amp;rsquo;ve done something with some features we were going to have, or similar, I was interested. I didn&amp;rsquo;t want to hire somebody who had a lot of experience in developing, but never did any kind of SaaS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Can you provide a frame of reference for cost when hiring a developer? How do you know what&amp;rsquo;s reasonable?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; It depends which part of the world you&amp;rsquo;re working from. Within certain limits, everything is reasonable, lol. It also has to do a lot with your budget. Particularly with our project, we had a set budget with the pre-sales we had. We approached the three runner-up developers, and asked them for a quote.&lt;/p&gt;
+
+&lt;p&gt;It ended up being within the parameters we were expecting. But before, that we had been talking with a couple of other developers, like friends from The Foundation, and friends from life which gave us an idea of how much a minimum viable product would cost.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know if we could throw an actual number out, because there are so many variables that you would have to consider. Depends where they are in the world, what language they speak, what language they code in, what your software requires… everyone has different rates. There&amp;rsquo;s a lot of variables to consider.&lt;/p&gt;
+
+&lt;p&gt;The best way that you could estimate is to run it through a friend who knows some coding, or just get in touch with a developer, no strings attached, asking what a reasonable estimate would be. Do that several times so that you have several points of references. We ran it by two or three people before actually asking for a quote. So when the quote came, it was more or less what we expected.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;How do you protect yourself from getting screwed over by a developer?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah, this was discussed in The Foundation, and we were recommended to have our own server, and have the developer eploy the coding there. We also had NDA agreements signed. We just asked them, &lt;em&gt;“Okay, are you able to sign NDA?”&lt;/em&gt; And they had no problem with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; The reason why we signed the NDA actually had more to do with the fact that we wanted to protect sensitive nformation from our end customers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yup yup. The developer should be able to deploy the code or everything they do at the end of the day.
+Using something like GitHub is good. That way you have everything on your site.&lt;/p&gt;
+
+&lt;p&gt;Our developers — they directly told us, &lt;em&gt;“Okay, just get this server and get GitHub. We will deploy here, we will be writing code here”&lt;/em&gt;. That&amp;rsquo;s how it was.&lt;/p&gt;
+
+&lt;p&gt;I knew from The Foundation that this is the best way, so it was kind of plus for the developers in gaining brownie points with us because they suggested it themselves. We didn&amp;rsquo;t have to ask them for this. So far it works. We see what they are doing exactly on GitHub, and everything gets deployed to our server.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; The thing also is that developers love being developers. They love to develop. They&amp;rsquo;re not so much into business. So they are okay with developing for us and we take care of the business part. At least the developers we&amp;rsquo;re working with… it wouldn&amp;rsquo;t occur to them to do a bootleg or copy of our software and try to market it themselves. They love to develop and create things.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;How do you set and hold to a production timetable? What&amp;rsquo;s the best way to estimate how long things will take to build?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; The way that we&amp;rsquo;re doing it now, is we decided to do it by “sprints”. We have a weekly schedule that we have shared ith them. It&amp;rsquo;s basically a document in Google Drive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah, where we have different tabs within the spreadsheets for different weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We discuss it every Monday, and we adjust the priorities for the week based on what&amp;rsquo;s realistic.
+So it&amp;rsquo;s something that we discuss together developers. We include an estimated time and delivery date in the schedule.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; So for example, if we want to put in a certain feature, we load it into the document in Google Drive. They can break t into smaller pieces or like smaller features depending on what they think is most feasible. Then they can give us an estimate on time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Having everything documented helps because it allows us to see the estimates and what gets done. So if we need a imilar feature done in the future, we already know how long it should take, approximately. It was hard to get to this point! &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;We didn&amp;rsquo;t know much about agile development, so we actually had a call with Carl Mattiola. He had some experience with this, and suggested a unique approach that we modeled for ourselves. Basically, we discuss features every Monday, making sure that we are on the priorities for that week. Every Friday we just make sure that everything has been done. And if it hasn&amp;rsquo;t been done, we discuss why and we just move to the next week.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;How can you ensure the code is “clean” so that other developers can take over if you stop working together?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We didn&amp;rsquo;t really do this ourselves, so we can just try to give the best answer we have! &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The easiest way, but the most expensive way is to hire someone to check the code. For us, we just made sure that the developers wrote a guideline of what they were doing. Also, we have them run test cases to make sure features run smoothly, and have them document everything along the way. So in case we break up with these guys, we can bring somebody else.&lt;/p&gt;
+
+&lt;p&gt;Hopefully that won&amp;rsquo;t happen. We love our developers. We&amp;rsquo;re thinking of bringing on someone else in the future… so they can be brought up to speed with the documentation our current developers have already prepared. So, you can either hire a third party to do a quality assurance check, or ask your developers to document what they are doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Did being in The Foundation help you get to where you are today? Could you have done it without? (more of a “&lt;u&gt;quality control&lt;/u&gt;” question for us)&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yes, totally helped us. No, we couldn&amp;rsquo;t have done without, lol.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Even if we had had all the knowledge already, we couldn&amp;rsquo;t have done it. I mean, not in the time we did it, at least.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; I mean we&amp;rsquo;re talking less than a year. Just a year ago, we were completely unhappy and trying to find some meaning our lives, and hoping that if went to Awesomeness Fest we would get some inspiration. We were really trying to look for some “out” of the corporate world, and trying to find something for us.&lt;/p&gt;
+
+&lt;p&gt;We didn&amp;rsquo;t know what, and getting into The Foundation… it&amp;rsquo;s a cliche what I&amp;rsquo;m going to say, but it changed our lives. I don&amp;rsquo;t know how to put it in any other way. But basically… it&amp;rsquo;s not only that we learned a lot. We got a lot of confidence on the things that we thought we would never do… and we did. We faced a lot of challenge and we conquered them. And we felt like rock stars many times. Sometimes we felt horrible. But that was part of the process as well &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;I can say that we grew up a lot as people in general. And as business people. And between the two of us also, because our relationship is on a completely different level as well, because we have a different kind of interaction. Definitely it changed our lives. I don&amp;rsquo;t know if you want to add something else Lubos.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Not really. You say it like perfectly &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah man!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; This interview is like perfect for us to reflect what we&amp;rsquo;ve done. Because as Romina said, sometimes we don&amp;rsquo;t have ime, or we forget to reflect. One year ago we were completely unhappy. Like really. Just going through the motions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah. Now, it&amp;rsquo;s not that every day is happy rainbows, happy days… e have tough days that are tough for us. But for every tough day, we have a huge lesson learned. It&amp;rsquo;s not that everything is perfect and happy, but what we are doing is for US… and we&amp;rsquo;re enjoying it, and it&amp;rsquo;s ours and it&amp;rsquo;s our adventure. It&amp;rsquo;s an awesome feeling &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yes &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Did anything hold you back from joining? Has that been defused now?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; I followed Dane and Andy&amp;rsquo;s stuff for a while after AwesomenessFest, and knew I had to join. I wasn&amp;rsquo;t questioning oney or the price. I was questioning myself more, and knew I had a lot of limiting beliefs to crush. I remember asking myself if I&amp;rsquo;d be able to do it. And I also asked myself, &lt;em&gt;“One year from now, would you regret if you didn&amp;rsquo;t join?”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Joining Foundation was kind of no brainer. When we got accepted it was like… wahhoooo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; I wasn&amp;rsquo;t questioning anything actually. I like adventures, so for me it was like… it was a perfect opportunity to have one. And the fact that we could have it together with Lubos was like an added bonus to the adventure. It was a great learning experience for us as a couple. It was surprisingly cool. I didn&amp;rsquo;t have anything that was stopping me from joining.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;How&amp;rsquo;s GliderPath doin&amp;rsquo; today? What does the next year hold GliderPath?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We haven&amp;rsquo;t launched to the public yet. We&amp;rsquo;re in beta, and we have a group of eleven founding members.
+We were going to close it at nine, but then we had so many people interested in trying out the software. We are going to launch a second version of our beta…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; In one week.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; … in one week. That&amp;rsquo;s going to be pretty awesome because it actually has many fixes and feedback the early adopters ave us. We are planning to do a soft launch in early January. And then like a launch to the public with all the bells and whistles around mid-January. That&amp;rsquo;s the plan.&lt;/p&gt;
+
+&lt;p&gt;So many really cool things are happening even before launching. We have people on a waiting list to get the software as soon as it&amp;rsquo;s launched. We have people who ask us to participate with them in conferences… like to do presentations in conferences.&lt;/p&gt;
+
+&lt;p&gt;Some of our founding members want us to present at one of the biggest industry conferences in March next year. We of course said yes! We have people that just come to us from referrals and from comments that people make in LinkedIn. People we don&amp;rsquo;t even know. They are just coming to check what&amp;rsquo;s going on with GliderPath.&lt;/p&gt;
+
+&lt;p&gt;It looks great for now. We have really good feelings &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Since the market is kind of saturated by software, we still have a long way to go.
+Even though our founding members really like GliderPath so far, we still have to develop more features.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We&amp;rsquo;re planning to have the core of the software developed by the end of Q1 next year. e have very big plans going into next year. Also because we&amp;rsquo;re in the translation industry the software will have to be translated and localized, so that&amp;rsquo;s also part of the plan for next year. We are looking at some interesting numbers for next year. We&amp;rsquo;re hoping to close next year with at least a hundred customers… a little bit more actually.&lt;/p&gt;
+
+&lt;p&gt;Also, if everything goes well, we&amp;rsquo;re also looking to explore some partnerships with our founding members.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s looking very good. We have some complementary projects related to GliderPath. Also we have GliderPath Academy which basically…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; It&amp;rsquo;s like learning platform for project managers. It was kind of funny, because we just asked our founding members what would be cool, what we can do for them, and they saw that Romina has experience as a proejct manager. So they asked us to give them some training. Then we thought, &lt;em&gt;“maybe we could give this training to everybody”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So we&amp;rsquo;re creating a learning platform. Hopefully, within the next week or two, I&amp;rsquo;ll put together a website with the first two courses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah. So we are planning to have some free courses, some paid courses. It&amp;rsquo;ll be another source of income.
+Many things are happening, and we&amp;rsquo;re getting to know a lot of people, and we&amp;rsquo;re making tons of very valuable connections within the industry. And also, we received some news that that our competitors that are worried, which is very funny for us, because we&amp;rsquo;re not even aware of them. So it&amp;rsquo;s looking good.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah, we just have to stay on track.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;What&amp;rsquo;s a piece of advice you&amp;rsquo;d give to yourself if you went back in time 12 months?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Only one? Lol.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Foundation:&lt;/strong&gt; You can give more if you want &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah. There&amp;rsquo;s a couple. For me, it would be just take the first step. And then the next one. And then the next one. But don&amp;rsquo;t worry about the rest of the steps. Just take the first one. Once you are done with that, then worry about the next. That would be one.&lt;/p&gt;
+
+&lt;p&gt;The second piece of advice is, fear is a good thing, because once you overcome it, you feel very powerful. Don&amp;rsquo;t let fear stop you from having the adventure of your life.&lt;/p&gt;
+
+&lt;p&gt;And for you, Lubos?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; I would say to myself don&amp;rsquo;t be afraid. Even if you&amp;rsquo;re the only one who thinks that something is going to work, don&amp;rsquo;t be afraid.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah. And at the end of the day, we realize that it&amp;rsquo;s kind of a good feeling to be a little bit different from the rest of the world. I would also tell myself, just go for it. What&amp;rsquo;s the worst that can happen? You can go back to whatever you were doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; I&amp;rsquo;d also tell myself to enjoy it more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Yeah. That&amp;rsquo;s true.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Since this was the first time doing anything like this, we got really stressed, and wondering what we were gonna do. The stress kind of takes away from the experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; We have to remind ourselves like “Hey … it&amp;rsquo;s good.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah. Even our founding members are saying “Guys, you should enjoy because what you&amp;rsquo;re doing is cool. So enjoying it is another piece of advice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;What does a day in the life look like now?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; It looks a little bit different from day-to-day. So a day in the life for me basically is morning meditation to make sure that I enjoy the day. And then I just get together with Lubos, as if I have never seen him before, and we see that one and write the priorities. If it&amp;rsquo;s a Monday, we do it for the whole week. If it&amp;rsquo;s another day of the week, we just make sure that we&amp;rsquo;re remembering that we&amp;rsquo;re on track for the goals of the week. And then we write the priorities for the day.&lt;/p&gt;
+
+&lt;p&gt;As I&amp;rsquo;m mostly in charge of interacting with clients and sales, I try to get pre-sales, send cold emails, answer emails, get in touch with the founding members and make sure they are all well taken care of. Then at the end of the day, we see if we have done what we set out to do in the morning. If not, we figure out what happened, and make it better for the next day. If it&amp;rsquo;s a Monday or a Friday we have calls with the developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah. For me I&amp;rsquo;m trying to get into this meditation stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Slowly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Slowly. Because we found out that like it&amp;rsquo;s really important to start the day on a positive note.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; When we don&amp;rsquo;t do it, or let&amp;rsquo;s say for some reason we get bad news early in the morning, it&amp;rsquo;s a horrible day after.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah. No matter what positive news comes afterwards, it becomes a horrible day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; So getting in the right mindset in the morning is super important.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; So yeah, for me I&amp;rsquo;m trying to create a knowledge base, so we don&amp;rsquo;t have to answer all the emails for support on the software. I&amp;rsquo;m also preparing stuff for developers at the moment. And also finishing the learning platform. That&amp;rsquo;s the main priority at the moment.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Something really good that we learned not so long ago that helps us with our objectives and the actions that we take day to day, is mapping our objectives. We learned this with our mastermind group, Sterling Assembly, right after The Foundation. Basically what we do is we set up outcome objectives for the quarter, and then we divide those outcome objectives into performance objectives.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah, we break the outcome into actionable steps we can take every day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; So that takes all the guessing work out of it. We don&amp;rsquo;t have to worry about “what are we gonna do today?” or “what&amp;rsquo;s the most important thing?”… because we already know what&amp;rsquo;s important in that quarter, and what we really really want to achieve. Makes it easy to figure out what we should be doing on a day-to-day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Any last words you have for people who were in your situation 12 months ago, just getting started?&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; Do it! But don&amp;rsquo;t do it because you think it&amp;rsquo;s going to be easy. Do it and know that sometimes it&amp;rsquo;s going to be hard. You have to want it bad enough so that you can continue when it gets hard. If you really want an experience that is going to be life changing, this is the right way to go.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; Yeah.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; It&amp;rsquo;s going to change your life completely. Your life isn&amp;rsquo;t going to be the same as it is now, and that&amp;rsquo;s so cool. You need to be committed to change, and you need to be committed to yourself and to what you want, and forget about what other people say. If this is really what you want just go for it and do it. You won&amp;rsquo;t regret it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lubos:&lt;/strong&gt; No, you won&amp;rsquo;t regret it. Just do it. It may seem easy for us to say at this moment, like “just do it”… but yeah, just take it one step at a time. If you are thinking about joining, join. Then you will take a next step, and then the next step, and then again. Take small steps, you will be awesome in the end. You will achieve amazing results.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Romina:&lt;/strong&gt; There&amp;rsquo;s a saying that goes “a journey of a thousand miles begins with one step” or something like that. That&amp;rsquo;s the way I feel about it &lt;img class="gemoji" alt="smiley" src="/assets/images/emoji/unicode/1f603.png" /&gt;. A word of warning is that it&amp;rsquo;s not easy. It&amp;rsquo;s not easy. If it was, we wouldn&amp;rsquo;t have had so many breakthroughs on the limiting beliefs that we had. And we had a lot. We still have some, but at least worked out the toughest ones… and that&amp;rsquo;s not easy, but it&amp;rsquo;s oh so cool.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;And that&amp;rsquo;s a wrap!&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or comments about the SW development or The Foundation overall, put them in the comment section below and I&amp;rsquo;ll be glad to answer them!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>3 Steps to Effective Cold Emails</title>
+    <link rel="alternate" href="http://blog.url.com/blog/3-steps-to-effective-cold-emails/"/>
+    <id>http://blog.url.com/blog/3-steps-to-effective-cold-emails/</id>
+    <published>2014-08-14T00:00:00+00:00</published>
+    <updated>2016-04-25T17:38:28+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Struggling with cold emails not being responded? We know the feeling! Because of the way we wanted to approach the &lt;a title="The Origins of GliderPath – A Tale of Collaboration" href="https://blog.gliderpath.com/gliderpath-origins/"&gt;creation of GliderPath&lt;/a&gt;, we needed to contact a great amount of people in a very short time. We’ve sent thousands of cold emails already, and even though hundreds of those emails have been answered, a lot of them got ignored (especially at the beginning!) leaving us wondering what to do next. This led us to learn a lot about best practices and tools for cold emailing.&lt;/p&gt;
+
+&lt;p&gt;What we wanted to know was easy: &lt;strong&gt;&lt;em&gt;How should we approach busy business owners and ask them for their time?&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;&lt;em&gt;How could we get our emails read and responded?&lt;/em&gt;&lt;/strong&gt; We did it the hard way by trial and error and split-testing, and we learned some cool tips that eventually got us increased response rates, leading to more interviews with business owners and more sales in the end. We want to share what we have learned with you, in the hope that you (or your maybe your Sales people) will find it useful. So we created an infographic with the key lessons we learned. Check it out below!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="3 Steps to Effective Cold Emails" src="/posts/3-steps-to-effective-cold-emails/effective-cold-emails-infographic-gliderpath.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Embed This Image On Your Site&lt;/strong&gt; &lt;em&gt;(copy code below):&lt;/em&gt;&lt;/p&gt;
+&lt;pre class="highlight html"&gt;&lt;code&gt;&lt;span class="nt"&gt;&amp;lt;div&lt;/span&gt; &lt;span class="na"&gt;style=&lt;/span&gt;&lt;span class="s"&gt;"clear:both"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"https://blog.gliderpath.com/3-steps-to-effective-cold-emails/"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class="na"&gt;src=&lt;/span&gt;&lt;span class="s"&gt;"https://blog.gliderpath.com/wp-content/uploads/2014/08/effective-cold-emails-infographic-gliderpath.jpg"&lt;/span&gt; &lt;span class="na"&gt;title=&lt;/span&gt;&lt;span class="s"&gt;"3 Steps to Effective Cold Emails"&lt;/span&gt; &lt;span class="na"&gt;alt=&lt;/span&gt;&lt;span class="s"&gt;"3 Steps to Effective Cold Emails"&lt;/span&gt; &lt;span class="na"&gt;border=&lt;/span&gt;&lt;span class="s"&gt;"0"&lt;/span&gt; &lt;span class="nt"&gt;/&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&lt;/span&gt;Courtesy of: &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;"https://blog.gliderpath.com/3-steps-to-effective-cold-emails/"&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;GliderPath&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+</feed>
