@@ -19,7 +19,11 @@
             %em
               wrote on
               = current_article.date.strftime('%B %e, %Y')
+          %share-button
         = yield
+
+        .centered-content
+          %share-button
 
         - if current_article.tags.present?
           %ul#tags

@@ -1,5 +1,6 @@
 #= require jquery/dist/jquery
 #= require mailer
+#= require share-button.js
 #= require typed.js/dist/typed.min.js
 
 # NAVIGATION & VERTCAL TEXT TRANSFORM ON HOMEPAGE
@@ -56,7 +57,7 @@ $(document).keyup (e) ->
     $('input, textarea').val ''
     $('.wrapper-dropdown').removeClass 'active'
 
-#TYPED.JS
+# TYPED.JS
 $ ->
   $('.typed').typed
     strings: [
@@ -67,3 +68,23 @@ $ ->
     typeSpeed: 90,
     backDelay: 500,
     loop: false
+
+# SOCIAL BUTTONS
+share = new ShareButton(
+  url: "#{data.site.root_url}"
+  ui:
+    button_font: false
+    icon_font: false
+  networks:
+    pinterest:
+      enabled: false
+    reddit:
+      enabled: false
+    whatsapp:
+      enabled: false
+    twitter:
+      description: $('meta[name="twitter:title"]').attr('content')
+)
+
+# REMOVE DISABLED SOCIAL BUTTONS
+$('.disabled').remove()

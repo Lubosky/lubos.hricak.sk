@@ -1,0 +1,107 @@
+share-button
+  @extend .sbold
+  +border-radius($border-radius)
+  +pad(5px 10px)
+  +transition(all .3s ease)
+  background: $bg
+  cursor: pointer
+  display: inline-block !important
+  margin: 20px auto 0
+  position: relative
+  -webkit-font-smoothing: antialiased
+  white-space: nowrap
+  text-transform: uppercase
+  &:hover
+    color: $white
+    background: $purple
+  &:before
+    @extend .icon-share:before
+    padding-right: 5px
+  .sb-social
+    +opacity(0)
+    +transition(all 0.4s ease)
+    position: absolute
+    visibility: hidden
+    &.sb-center
+      left: 50%
+      &.sb-top
+        +transform(translate(-50%, -100%))
+        top: 0
+      &.active
+        &.sb-top
+          top: -1em
+    &.active
+      +opacity(1)
+      +transition(all 0.4s ease)
+      visibility: visible
+    &.load
+      +transition(none !important)
+    ul
+      +pad(0)
+      margin: 0
+      list-style: none
+      line-height: 0
+      &:after
+        +size(0)
+        content: ''
+        display: block
+        position: absolute
+        left: 0
+        right: 0
+        margin: 0 auto
+        border-left: 10px solid transparent
+        border-right: 10px solid transparent
+        border-top: 10px solid $google-plus
+      li
+        +pad(12px 0)
+        +size(50px 20px)
+        +transition(all .3s ease)
+        box-sizing: content-box
+        font-size: 20px
+        margin: 0
+        position: relative
+        z-index: 2
+        &.enabled
+          display: inline-block
+          &:first-child
+            +border-radius($border-radius 0 0 $border-radius)
+          &:last-child
+            +border-radius(0 $border-radius $border-radius 0)
+        &.disabled
+          display: none
+        &:before
+          content: ''
+          position: absolute
+          color: $white
+          +size(inherit)
+          +transform(translate(-50%, 0))
+          +transition(all .3s ease)
+        a
+          +size(100%)
+          position: absolute
+          top: 0
+          left: 0
+          z-index: 3
+          &:hover
+            background: rgba($black, .15)
+
+        &[class*='email']
+          background: $dark-gray
+          &:before
+            @extend .icon-send:before
+        &[class*='facebook']
+          background: $facebook
+          &:before
+            @extend .icon-logo-facebook:before
+        &[class*='googlePlus']
+          background: $google-plus
+          &:before
+            @extend .icon-logo-google-plus:before
+        &[class*='linkedin']
+          background: $linkedin
+          &:before
+            @extend .icon-logo-linkedin:before
+        &[class*='twitter']
+          background: $twitter
+          &:before
+            @extend .icon-logo-twitter:before
