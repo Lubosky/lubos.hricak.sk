@@ -71,7 +71,6 @@ $ ->
 
 # SOCIAL BUTTONS
 share = new ShareButton(
-  url: "#{data.site.root_url}"
   ui:
     button_font: false
     icon_font: false
