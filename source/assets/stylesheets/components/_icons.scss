@@ -2,24 +2,6 @@
 // Icon Font: icons
 //
 
-@font-face {
-  font-family: "icons";
-  src: url("icons.eot");
-  src: url("icons.eot?#iefix") format("embedded-opentype"),
-       url("icons.woff") format("woff"),
-       url("icons.ttf") format("truetype"),
-       url("icons.svg#icons") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "icons";
-    src: url("icons.svg#icons") format("svg");
-  }
-}
-
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
@@ -27,6 +9,7 @@
 .icon-glasses:before,
 .icon-lab:before,
 .icon-link:before,
+.icon-logo-facebook:before,
 .icon-logo-github:before,
 .icon-logo-google-plus:before,
 .icon-logo-instagram:before,
@@ -35,6 +18,7 @@
 .icon-logo-youtube:before,
 .icon-message:before,
 .icon-send:before,
+.icon-share:before,
 .icon-tag:before {
   display: inline-block;
   font-family: "icons";
@@ -50,30 +34,34 @@
   font-smoothing: antialiased;
 }
 
-.icon-blockquote:before { content: "\f11a"; }
-.icon-glasses:before { content: "\f113"; }
-.icon-lab:before { content: "\f118"; }
-.icon-link:before { content: "\f109"; }
-.icon-logo-github:before { content: "\f101"; }
-.icon-logo-google-plus:before { content: "\f102"; }
-.icon-logo-instagram:before { content: "\f103"; }
-.icon-logo-linkedin:before { content: "\f104"; }
-.icon-logo-twitter:before { content: "\f105"; }
-.icon-logo-youtube:before { content: "\f106"; }
-.icon-message:before { content: "\f115"; }
-.icon-send:before { content: "\f119"; }
-.icon-tag:before { content: "\f10f"; }
+.icon-blockquote:before { content: "\f100"; }
+.icon-glasses:before { content: "\f101"; }
+.icon-lab:before { content: "\f102"; }
+.icon-link:before { content: "\f103"; }
+.icon-logo-facebook:before { content: "\f104"; }
+.icon-logo-github:before { content: "\f105"; }
+.icon-logo-google-plus:before { content: "\f106"; }
+.icon-logo-instagram:before { content: "\f107"; }
+.icon-logo-linkedin:before { content: "\f108"; }
+.icon-logo-twitter:before { content: "\f109"; }
+.icon-logo-youtube:before { content: "\f10a"; }
+.icon-message:before { content: "\f10b"; }
+.icon-send:before { content: "\f10c"; }
+.icon-share:before { content: "\f10e"; }
+.icon-tag:before { content: "\f10d"; }
 
-$font-icons-blockquote: "\f11a";
-$font-icons-glasses: "\f113";
-$font-icons-lab: "\f118";
-$font-icons-link: "\f109";
-$font-icons-logo-github: "\f101";
-$font-icons-logo-google-plus: "\f102";
-$font-icons-logo-instagram: "\f103";
-$font-icons-logo-linkedin: "\f104";
-$font-icons-logo-twitter: "\f105";
-$font-icons-logo-youtube: "\f106";
-$font-icons-message: "\f115";
-$font-icons-send: "\f119";
-$font-icons-tag: "\f10f";
+$font-icons-blockquote: "\f100";
+$font-icons-glasses: "\f101";
+$font-icons-lab: "\f102";
+$font-icons-link: "\f103";
+$font-icons-logo-facebook: "\f104";
+$font-icons-logo-github: "\f105";
+$font-icons-logo-google-plus: "\f106";
+$font-icons-logo-instagram: "\f107";
+$font-icons-logo-linkedin: "\f108";
+$font-icons-logo-twitter: "\f109";
+$font-icons-logo-youtube: "\f10a";
+$font-icons-message: "\f10b";
+$font-icons-send: "\f10c";
+$font-icons-share: "\f10e";
+$font-icons-tag: "\f10d";
